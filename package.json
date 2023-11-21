@@ -77,6 +77,6 @@
     "eslint-config-next": "14.0.2"
   },
   "config": {
-    "siteURL": "https://plugin.vectaur.co"
+    "siteURL": "https://vectaur.co"
   }
 }
