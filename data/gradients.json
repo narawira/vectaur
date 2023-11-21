@@ -1,0 +1,2402 @@
+[
+	{
+		"name": "Gentle Gray",
+		"background": "linear-gradient(45deg, rgba(230,233,240,1) 0%, rgba(238,241,245,1) 100%)",
+		"dominant": "#eaedf2",
+		"color": "01-Light"
+	},
+	{
+		"name": "Morning Frost",
+		"background": "linear-gradient(45deg, rgba(233,222,250,1) 0%, rgba(251,252,219,1) 100%)",
+		"dominant": "#f2edea",
+		"color": "01-Light"
+	},
+	{
+		"name": "Gentle Mist",
+		"background": "linear-gradient(45deg, rgba(253,251,251,1) 0%, rgba(235,237,238,1) 100%)",
+		"dominant": "#f4f4f4",
+		"color": "01-Light"
+	},
+	{
+		"name": "Frosty Pink",
+		"background": "linear-gradient(45deg, rgba(243,231,233,1) 0%, rgba(227,238,255,1) 100%)",
+		"dominant": "#ebeaf4",
+		"color": "01-Light"
+	},
+	{
+		"name": "Frosty Dawn",
+		"background": "linear-gradient(45deg, rgba(236,233,230,1) 0%, rgba(255,255,255,1) 100%)",
+		"dominant": "#f5f4f2",
+		"color": "01-Light"
+	},
+	{
+		"name": "Mint Frosting",
+		"background": "linear-gradient(45deg, rgba(227,253,245,1) 0%, rgba(255,230,250,1) 100%)",
+		"dominant": "#f1f1f7",
+		"color": "01-Light"
+	},
+	{
+		"name": "Arctic Breeze",
+		"background": "linear-gradient(45deg, rgba(223,233,243,1) 0%, rgba(255,255,255,1) 100%)",
+		"dominant": "#eff4f9",
+		"color": "01-Light"
+	},
+	{
+		"name": "Vanilla Sunbeam",
+		"background": "linear-gradient(45deg, rgba(255,239,186,1) 0%, rgba(255,255,255,1) 100%)",
+		"dominant": "#fff7dc",
+		"color": "01-Light"
+	},
+	{
+		"name": "Pastel Serenity",
+		"background": "linear-gradient(45deg, rgba(168,237,234,1) 0%, rgba(254,214,227,1) 100%)",
+		"dominant": "#d3e1e6",
+		"color": "01-Light"
+	},
+	{
+		"name": "Silver Coast",
+		"background": "linear-gradient(45deg, rgba(207,217,223,1) 0%, rgba(226,235,240,1) 100%)",
+		"dominant": "#d8e2e7",
+		"color": "01-Light"
+	},
+	{
+		"name": "Pastel Dream",
+		"background": "linear-gradient(45deg, rgba(235,192,253,1) 0%, rgba(217,222,216,1) 100%)",
+		"dominant": "#e2cfea",
+		"color": "01-Light"
+	},
+	{
+		"name": "Gentle Lilac",
+		"background": "linear-gradient(45deg, rgba(218,212,236,1) 0%, rgba(243,231,233,1) 100%)",
+		"dominant": "#e6ddea",
+		"color": "01-Light"
+	},
+	{
+		"name": "Frost Whisper",
+		"background": "linear-gradient(45deg, rgba(245,247,250,1) 0%, rgba(195,207,226,1) 100%)",
+		"dominant": "#dce3ee",
+		"color": "01-Light"
+	},
+	{
+		"name": "Peach Whisper",
+		"background": "linear-gradient(45deg, rgba(255,238,238,1) 0%, rgba(221,239,187,1) 100%)",
+		"dominant": "#eeeed4",
+		"color": "01-Light"
+	},
+	{
+		"name": "Petal Dance",
+		"background": "linear-gradient(45deg, rgba(253,252,251,1) 0%, rgba(226,209,195,1) 100%)",
+		"dominant": "#efe6df",
+		"color": "01-Light"
+	},
+	{
+		"name": "Frosty Light",
+		"background": "linear-gradient(45deg, rgba(201,214,255,1) 0%, rgba(226,226,226,1) 100%)",
+		"dominant": "#d5dcf0",
+		"color": "01-Light"
+	},
+	{
+		"name": "Icy Shore",
+		"background": "linear-gradient(45deg, rgba(255,241,235,1) 0%, rgba(172,224,249,1) 100%)",
+		"dominant": "#d5e8f2",
+		"color": "01-Light"
+	},
+	{
+		"name": "Cloudy Skies",
+		"background": "linear-gradient(45deg, rgba(224,234,252,1) 0%, rgba(207,222,243,1) 100%)",
+		"dominant": "#d7e4f7",
+		"color": "01-Light"
+	},
+	{
+		"name": "Lilac Breeze",
+		"background": "linear-gradient(45deg, rgba(205,156,242,1) 0%, rgba(246,243,255,1) 100%)",
+		"dominant": "#e1c7f8",
+		"color": "01-Light"
+	},
+	{
+		"name": "Sunrise Mist",
+		"background": "linear-gradient(45deg, rgba(254,173,166,1) 0%, rgba(245,239,239,1) 100%)",
+		"dominant": "#f9ceca",
+		"color": "01-Light"
+	},
+	{
+		"name": "Peachy Dream",
+		"background": "linear-gradient(45deg, rgba(250,208,196,1) 0%, rgba(255,209,255,1) 100%)",
+		"dominant": "#fcd0e1",
+		"color": "01-Light"
+	},
+	{
+		"name": "Metallic Cloud",
+		"background": "linear-gradient(45deg, rgba(196,197,199,1) 0%, rgba(220,221,223,1) 100%)",
+		"dominant": "#d0d1d3",
+		"color": "01-Light"
+	},
+	{
+		"name": "Dreamy Sky",
+		"background": "linear-gradient(45deg, rgba(218,226,248,1) 0%, rgba(214,164,164,1) 100%)",
+		"dominant": "#d8c3ce",
+		"color": "01-Light"
+	},
+	{
+		"name": "Pink Whisper",
+		"background": "linear-gradient(45deg, rgba(223,137,181,1) 0%, rgba(191,217,254,1) 100%)",
+		"dominant": "#cfb1d9",
+		"color": "01-Light"
+	},
+	{
+		"name": "White Mist",
+		"background": "linear-gradient(45deg, rgba(171,186,171,1) 0%, rgba(255,255,255,1) 100%)",
+		"dominant": "#d5dcd5",
+		"color": "01-Light"
+	},
+	{
+		"name": "Pink Emerald",
+		"background": "linear-gradient(45deg, rgba(213,88,200,1) 0%, rgba(36,210,146,1) 100%)",
+		"dominant": "#7c95ad",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Cotton Candy Sky",
+		"background": "linear-gradient(45deg, rgba(255,5,124,1) 0%, rgba(124,100,213,1) 48%, rgba(76,195,255,1) 100%)",
+		"dominant": "#9764c5",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Lilac Whisper",
+		"background": "linear-gradient(45deg, rgba(149,125,173,1) 0%, rgba(210,145,188,1) 100%)",
+		"dominant": "#b387b4",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Lavender Field",
+		"background": "linear-gradient(45deg, rgba(101,78,163,1) 0%, rgba(234,170,200,1) 100%)",
+		"dominant": "#a77cb5",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Lavender Whisper",
+		"background": "linear-gradient(45deg, rgba(101,78,163,1) 0%, rgba(234,175,200,1) 100%)",
+		"dominant": "#a77eb5",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Dreamy Pink-Blue",
+		"background": "linear-gradient(45deg, rgba(229,93,135,1) 0%, rgba(95,195,228,1) 100%)",
+		"dominant": "#a290b5",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Fantasy Blend",
+		"background": "linear-gradient(45deg, rgba(59,65,197,1) 0%, rgba(168,129,187,1) 56%, rgba(255,200,169,1) 100%)",
+		"dominant": "#a083b8",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Aqua Violet Blaze",
+		"background": "linear-gradient(45deg, rgba(18,194,233,1) 0%, rgba(196,113,237,1) 56%, rgba(246,79,89,1) 100%)",
+		"dominant": "#9980ba",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Lavender Frost",
+		"background": "linear-gradient(45deg, rgba(168,191,255,1) 0%, rgba(136,77,128,1) 100%)",
+		"dominant": "#9886bf",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Stormy Sea",
+		"background": "linear-gradient(45deg, rgba(203,186,204,1) 0%, rgba(37,128,179,1) 100%)",
+		"dominant": "#789dbf",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Dusky Blue",
+		"background": "linear-gradient(45deg, rgba(117,127,154,1) 0%, rgba(215,221,232,1) 100%)",
+		"dominant": "#a6aec1",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Arctic Chill",
+		"background": "linear-gradient(45deg, rgba(7,101,133,1) 0%, rgba(255,255,255,1) 100%)",
+		"dominant": "#83b2c2",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Lilac Fade",
+		"background": "linear-gradient(45deg, rgba(167,166,203,1) 0%, rgba(137,137,186,1) 100%)",
+		"dominant": "#9897c2",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Dreamy Oceanview",
+		"background": "linear-gradient(45deg, rgba(119,161,211,1) 0%, rgba(121,203,202,1) 56%, rgba(230,132,174,1) 100%)",
+		"dominant": "#9ca5c3",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Arctic Ocean",
+		"background": "linear-gradient(45deg, rgba(255,253,228,1) 0%, rgba(0,90,167,1) 100%)",
+		"dominant": "#7fabc5",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Lilac Dream",
+		"background": "linear-gradient(45deg, rgba(190,147,197,1) 0%, rgba(123,198,204,1) 100%)",
+		"dominant": "#9cacc8",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Dusk Reflection",
+		"background": "linear-gradient(45deg, rgba(106,133,182,1) 0%, rgba(186,200,224,1) 100%)",
+		"dominant": "#92a6cb",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Tranquil Sky",
+		"background": "linear-gradient(45deg, rgba(163,189,237,1) 0%, rgba(105,145,199,1) 100%)",
+		"dominant": "#86a7da",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Dreamy Lavender",
+		"background": "linear-gradient(45deg, rgba(116,235,213,1) 0%, rgba(159,172,230,1) 100%)",
+		"dominant": "#89cbdd",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Aqua Dreamlight",
+		"background": "linear-gradient(45deg, rgba(116,235,213,1) 0%, rgba(172,182,229,1) 100%)",
+		"dominant": "#90d0dd",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Peaches 'n Cream",
+		"background": "linear-gradient(45deg, rgba(235,187,167,1) 0%, rgba(207,199,248,1) 100%)",
+		"dominant": "#ddc1cf",
+		"color": "01-Light"
+	},
+	{
+		"name": "Morning Dew",
+		"background": "linear-gradient(45deg, rgba(213,222,231,1) 0%, rgba(255,175,189,1) 56%, rgba(201,255,191,1) 100%)",
+		"dominant": "#dfd9cb",
+		"color": "01-Light"
+	},
+	{
+		"name": "Pastel Love",
+		"background": "linear-gradient(45deg, rgba(255,177,193,1) 0%, rgba(168,192,255,1) 100%)",
+		"dominant": "#d3b8e0",
+		"color": "01-Light"
+	},
+	{
+		"name": "Soft Linen",
+		"background": "linear-gradient(45deg, rgba(239,239,187,1) 0%, rgba(212,211,221,1) 100%)",
+		"dominant": "#e1e1cc",
+		"color": "01-Light"
+	},
+	{
+		"name": "Spring Blossom",
+		"background": "linear-gradient(45deg, rgba(201,255,191,1) 0%, rgba(255,175,189,1) 100%)",
+		"dominant": "#e4d7be",
+		"color": "01-Light"
+	},
+	{
+		"name": "Green Whisper",
+		"background": "linear-gradient(45deg, rgba(193,223,196,1) 0%, rgba(222,236,221,1) 100%)",
+		"dominant": "#cfe5d0",
+		"color": "01-Light"
+	},
+	{
+		"name": "Soft Azure",
+		"background": "linear-gradient(45deg, rgba(189,194,232,1) 0%, rgba(230,222,233,1) 100%)",
+		"dominant": "#d1d0e8",
+		"color": "01-Light"
+	},
+	{
+		"name": "Misty Lavender",
+		"background": "linear-gradient(45deg, rgba(221,214,243,1) 0%, rgba(250,172,168,1) 100%)",
+		"dominant": "#ebc1cd",
+		"color": "01-Light"
+	},
+	{
+		"name": "Berry Cream",
+		"background": "linear-gradient(45deg, rgba(217,167,199,1) 0%, rgba(255,252,220,1) 100%)",
+		"dominant": "#ecd1d1",
+		"color": "01-Light"
+	},
+	{
+		"name": "Sunshine Meadow",
+		"background": "linear-gradient(45deg, rgba(171,236,214,1) 0%, rgba(251,237,150,1) 100%)",
+		"dominant": "#d3ecb6",
+		"color": "01-Light"
+	},
+	{
+		"name": "Candy Sky",
+		"background": "linear-gradient(45deg, rgba(251,194,235,1) 0%, rgba(166,193,238,1) 100%)",
+		"dominant": "#d0c1ec",
+		"color": "01-Light"
+	},
+	{
+		"name": "Sky Clarity",
+		"background": "linear-gradient(45deg, rgba(172,203,238,1) 0%, rgba(231,240,253,1) 100%)",
+		"dominant": "#c9ddf5",
+		"color": "01-Light"
+	},
+	{
+		"name": "Cherry Blossom",
+		"background": "linear-gradient(45deg, rgba(238,156,167,1) 0%, rgba(255,221,225,1) 100%)",
+		"dominant": "#f6bcc4",
+		"color": "01-Light"
+	},
+	{
+		"name": "Lavender Love",
+		"background": "linear-gradient(45deg, rgba(244,196,243,1) 0%, rgba(252,103,250,1) 100%)",
+		"dominant": "#f895f6",
+		"color": "01-Light"
+	},
+	{
+		"name": "Roseate Light",
+		"background": "linear-gradient(45deg, rgba(255,154,158,1) 0%, rgba(254,207,239,1) 100%)",
+		"dominant": "#feb4c6",
+		"color": "01-Light"
+	},
+	{
+		"name": "Minty White",
+		"background": "linear-gradient(45deg, rgba(102,255,204,1) 0%, rgba(255,255,255,1) 100%)",
+		"dominant": "#b2ffe5",
+		"color": "01-Light"
+	},
+	{
+		"name": "Ethereal Calm",
+		"background": "linear-gradient(45deg, rgba(139,170,170,1) 0%, rgba(174,139,156,1) 100%)",
+		"dominant": "#9c9aa3",
+		"color": "02-Lime"
+	},
+	{
+		"name": "Silvery Slate",
+		"background": "linear-gradient(45deg, rgba(189,187,190,1) 0%, rgba(157,158,163,1) 100%)",
+		"dominant": "#adacb0",
+		"color": "02-Lime"
+	},
+	{
+		"name": "Steel Horizon",
+		"background": "linear-gradient(45deg, rgba(188,197,206,1) 0%, rgba(146,158,173,1) 100%)",
+		"dominant": "#a7b1bd",
+		"color": "02-Lime"
+	},
+	{
+		"name": "Modern Gray",
+		"background": "linear-gradient(45deg, rgba(142,158,171,1) 0%, rgba(238,242,243,1) 100%)",
+		"dominant": "#bec8cf",
+		"color": "02-Lime"
+	},
+	{
+		"name": "Misty Cove",
+		"background": "linear-gradient(45deg, rgba(187,210,197,1) 0%, rgba(83,105,118,1) 100%)",
+		"dominant": "#879d9d",
+		"color": "02-Lime"
+	},
+	{
+		"name": "Misty Lake",
+		"background": "linear-gradient(45deg, rgba(241,242,181,1) 0%, rgba(19,80,88,1) 100%)",
+		"dominant": "#82a186",
+		"color": "02-Lime"
+	},
+	{
+		"name": "Day to Night",
+		"background": "linear-gradient(45deg, rgba(0,79,249,1) 0%, rgba(255,249,76,1) 100%)",
+		"dominant": "#7fa4a2",
+		"color": "02-Lime"
+	},
+	{
+		"name": "Aqua Sunset",
+		"background": "linear-gradient(45deg, rgba(48,232,191,1) 0%, rgba(255,130,53,1) 100%)",
+		"dominant": "#97b57a",
+		"color": "02-Lime"
+	},
+	{
+		"name": "Tropical Shine",
+		"background": "linear-gradient(45deg, rgba(22,160,133,1) 0%, rgba(244,208,63,1) 100%)",
+		"dominant": "#85b862",
+		"color": "02-Lime"
+	},
+	{
+		"name": "Spring Leaf",
+		"background": "linear-gradient(45deg, rgba(118,184,82,1) 0%, rgba(141,194,111,1) 100%)",
+		"dominant": "#81bd60",
+		"color": "02-Lime"
+	},
+	{
+		"name": "Seafoam Teal",
+		"background": "linear-gradient(45deg, rgba(76,184,196,1) 0%, rgba(60,211,173,1) 100%)",
+		"dominant": "#44c5b8",
+		"color": "02-Lime"
+	},
+	{
+		"name": "Jungle Mist",
+		"background": "linear-gradient(45deg, rgba(29,151,108,1) 0%, rgba(147,249,185,1) 100%)",
+		"dominant": "#58c892",
+		"color": "02-Lime"
+	},
+	{
+		"name": "Lime Field",
+		"background": "linear-gradient(45deg, rgba(220,227,91,1) 0%, rgba(69,182,73,1) 100%)",
+		"dominant": "#90cc52",
+		"color": "02-Lime"
+	},
+	{
+		"name": "Aqua Dream",
+		"background": "linear-gradient(45deg, rgba(0,205,172,1) 0%, rgba(141,218,213,1) 100%)",
+		"dominant": "#46d3c0",
+		"color": "02-Lime"
+	},
+	{
+		"name": "Crystal Water",
+		"background": "linear-gradient(45deg, rgba(150,222,218,1) 0%, rgba(80,201,195,1) 100%)",
+		"dominant": "#73d3ce",
+		"color": "02-Lime"
+	},
+	{
+		"name": "Silver Beach Sunrise",
+		"background": "linear-gradient(45deg, rgba(192,192,170,1) 0%, rgba(28,239,255,1) 100%)",
+		"dominant": "#6ed7d4",
+		"color": "02-Lime"
+	},
+	{
+		"name": "Tropical Daydream",
+		"background": "linear-gradient(45deg, rgba(0,195,255,1) 0%, rgba(255,255,28,1) 100%)",
+		"dominant": "#7fe18d",
+		"color": "02-Lime"
+	},
+	{
+		"name": "Turquoise Whisper",
+		"background": "linear-gradient(45deg, rgba(28,216,210,1) 0%, rgba(147,237,199,1) 100%)",
+		"dominant": "#57e2cc",
+		"color": "02-Lime"
+	},
+	{
+		"name": "Tropical Green",
+		"background": "linear-gradient(45deg, rgba(67,198,172,1) 0%, rgba(248,255,174,1) 100%)",
+		"dominant": "#9de2ad",
+		"color": "02-Lime"
+	},
+	{
+		"name": "Aqua Spring",
+		"background": "linear-gradient(45deg, rgba(0,201,255,1) 0%, rgba(146,254,157,1) 100%)",
+		"dominant": "#49e3ce",
+		"color": "02-Lime"
+	},
+	{
+		"name": "Lime Spark",
+		"background": "linear-gradient(45deg, rgba(15,216,80,1) 0%, rgba(249,240,71,1) 100%)",
+		"dominant": "#84e44b",
+		"color": "02-Lime"
+	},
+	{
+		"name": "Lime Radiance",
+		"background": "linear-gradient(45deg, rgba(32,226,215,1) 0%, rgba(249,254,165,1) 100%)",
+		"dominant": "#8cf0be",
+		"color": "02-Lime"
+	},
+	{
+		"name": "Fresh Spring",
+		"background": "linear-gradient(45deg, rgba(212,252,121,1) 0%, rgba(150,230,161,1) 100%)",
+		"dominant": "#b5f18d",
+		"color": "02-Lime"
+	},
+	{
+		"name": "Mint Freshness",
+		"background": "linear-gradient(45deg, rgba(223,255,205,1) 0%, rgba(144,249,196,1) 48%, rgba(57,243,187,1) 100%)",
+		"dominant": "#8df9c4",
+		"color": "02-Lime"
+	},
+	{
+		"name": "Lemon Lime",
+		"background": "linear-gradient(45deg, rgba(253,252,71,1) 0%, rgba(36,254,65,1) 100%)",
+		"dominant": "#90fd44",
+		"color": "02-Lime"
+	},
+	{
+		"name": "Mint Splash",
+		"background": "linear-gradient(45deg, rgba(179,255,171,1) 0%, rgba(18,255,247,1) 100%)",
+		"dominant": "#62ffd1",
+		"color": "02-Lime"
+	},
+	{
+		"name": "Aqua Light",
+		"background": "linear-gradient(45deg, rgba(168,255,120,1) 0%, rgba(120,255,214,1) 100%)",
+		"dominant": "#90ffa7",
+		"color": "02-Lime"
+	},
+	{
+		"name": "Lime Mist",
+		"background": "linear-gradient(45deg, rgba(170,255,169,1) 0%, rgba(17,255,189,1) 100%)",
+		"dominant": "#5dffb3",
+		"color": "02-Lime"
+	},
+	{
+		"name": "Ocean Sunrise",
+		"background": "linear-gradient(45deg, rgba(61,126,170,1) 0%, rgba(255,228,122,1) 100%)",
+		"dominant": "#9eb192",
+		"color": "02-Lime"
+	},
+	{
+		"name": "Forest Whisper",
+		"background": "linear-gradient(45deg, rgba(100,145,115,1) 0%, rgba(219,213,164,1) 100%)",
+		"dominant": "#9fb38b",
+		"color": "02-Lime"
+	},
+	{
+		"name": "Retro Pink Blue",
+		"background": "linear-gradient(45deg, rgba(204,149,192,1) 0%, rgba(219,212,180,1) 56%, rgba(122,161,210,1) 100%)",
+		"dominant": "#b5aec2",
+		"color": "02-Lime"
+	},
+	{
+		"name": "Lavender Meadow",
+		"background": "linear-gradient(45deg, rgba(220,176,237,1) 0%, rgba(153,201,156,1) 100%)",
+		"dominant": "#babcc4",
+		"color": "02-Lime"
+	},
+	{
+		"name": "Nature's Breath",
+		"background": "linear-gradient(45deg, rgba(100,179,244,1) 0%, rgba(194,229,156,1) 100%)",
+		"dominant": "#93ccc8",
+		"color": "02-Lime"
+	},
+	{
+		"name": "Seaside Meadow",
+		"background": "linear-gradient(45deg, rgba(183,248,219,1) 0%, rgba(80,167,194,1) 100%)",
+		"dominant": "#83cfce",
+		"color": "02-Lime"
+	},
+	{
+		"name": "Ocean to Sand",
+		"background": "linear-gradient(45deg, rgba(43,192,228,1) 0%, rgba(234,236,198,1) 100%)",
+		"dominant": "#8ad6d5",
+		"color": "02-Lime"
+	},
+	{
+		"name": "Tropical Sunrise",
+		"background": "linear-gradient(45deg, rgba(112,225,245,1) 0%, rgba(255,209,148,1) 100%)",
+		"dominant": "#b7d9c4",
+		"color": "02-Lime"
+	},
+	{
+		"name": "Lime Twist",
+		"background": "linear-gradient(45deg, rgba(150,251,196,1) 0%, rgba(249,245,134,1) 100%)",
+		"dominant": "#c7f8a5",
+		"color": "02-Lime"
+	},
+	{
+		"name": "Azure Harmony",
+		"background": "linear-gradient(45deg, rgba(67,206,162,1) 0%, rgba(24,90,157,1) 100%)",
+		"dominant": "#2d949f",
+		"color": "03-Green"
+	},
+	{
+		"name": "Forest Lake",
+		"background": "linear-gradient(45deg, rgba(52,143,80,1) 0%, rgba(86,180,211,1) 100%)",
+		"dominant": "#45a191",
+		"color": "03-Green"
+	},
+	{
+		"name": "Meadow Breeze",
+		"background": "linear-gradient(45deg, rgba(103,178,111,1) 0%, rgba(76,162,205,1) 100%)",
+		"dominant": "#59aa9e",
+		"color": "03-Green"
+	},
+	{
+		"name": "Aquamarine Dream",
+		"background": "linear-gradient(45deg, rgba(0,180,219,1) 0%, rgba(0,131,176,1) 100%)",
+		"dominant": "#009bc5",
+		"color": "03-Green"
+	},
+	{
+		"name": "Tropical Surge",
+		"background": "linear-gradient(45deg, rgba(42,245,152,1) 0%, rgba(0,158,253,1) 100%)",
+		"dominant": "#15c9ca",
+		"color": "03-Green"
+	},
+	{
+		"name": "Tropical Wave",
+		"background": "linear-gradient(45deg, rgba(0,122,223,1) 0%, rgba(0,236,188,1) 100%)",
+		"dominant": "#00b3cd",
+		"color": "03-Green"
+	},
+	{
+		"name": "Emerald Wave",
+		"background": "linear-gradient(45deg, rgba(11,163,96,1) 0%, rgba(60,186,146,1) 100%)",
+		"dominant": "#23ae79",
+		"color": "03-Green"
+	},
+	{
+		"name": "Teal Merge",
+		"background": "linear-gradient(45deg, rgba(6,190,182,1) 0%, rgba(72,177,191,1) 100%)",
+		"dominant": "#27b7ba",
+		"color": "03-Green"
+	},
+	{
+		"name": "Mint Breeze",
+		"background": "linear-gradient(45deg, rgba(2,170,176,1) 0%, rgba(0,205,172,1) 100%)",
+		"dominant": "#01bbae",
+		"color": "03-Green"
+	},
+	{
+		"name": "Green Zest",
+		"background": "linear-gradient(45deg, rgba(0,176,155,1) 0%, rgba(150,201,61,1) 100%)",
+		"dominant": "#4bbc6c",
+		"color": "03-Green"
+	},
+	{
+		"name": "Emerald Coast",
+		"background": "linear-gradient(45deg, rgba(32,191,85,1) 0%, rgba(1,186,239,1) 100%)",
+		"dominant": "#10bca2",
+		"color": "03-Green"
+	},
+	{
+		"name": "Teal Ocean",
+		"background": "linear-gradient(45deg, rgba(0,121,145,1) 0%, rgba(120,255,214,1) 100%)",
+		"dominant": "#3cbcb3",
+		"color": "03-Green"
+	},
+	{
+		"name": "Green Essence",
+		"background": "linear-gradient(45deg, rgba(86,171,47,1) 0%, rgba(168,224,99,1) 100%)",
+		"dominant": "#7fc549",
+		"color": "03-Green"
+	},
+	{
+		"name": "Green Reef",
+		"background": "linear-gradient(45deg, rgba(155,225,93,1) 0%, rgba(0,227,174,1) 100%)",
+		"dominant": "#4de285",
+		"color": "03-Green"
+	},
+	{
+		"name": "Turquoise Dream",
+		"background": "linear-gradient(45deg, rgba(12,235,235,1) 0%, rgba(32,227,178,1) 56%, rgba(41,255,198,1) 100%)",
+		"dominant": "#1cefcb",
+		"color": "03-Green"
+	},
+	{
+		"name": "Emerald Dive",
+		"background": "linear-gradient(45deg, rgba(67,233,123,1) 0%, rgba(56,249,215,1) 100%)",
+		"dominant": "#3df1a9",
+		"color": "03-Green"
+	},
+	{
+		"name": "Misty Field",
+		"background": "linear-gradient(45deg, rgba(204,204,178,1) 0%, rgba(117,117,25,1) 100%)",
+		"dominant": "#a0a065",
+		"color": "04-Golden"
+	},
+	{
+		"name": "Lemon Grove",
+		"background": "linear-gradient(45deg, rgba(121,159,12,1) 0%, rgba(172,187,120,1) 100%)",
+		"dominant": "#92ad42",
+		"color": "04-Golden"
+	},
+	{
+		"name": "Peach Delight",
+		"background": "linear-gradient(45deg, rgba(255,236,210,1) 0%, rgba(252,182,159,1) 100%)",
+		"dominant": "#fdd1b8",
+		"color": "04-Golden"
+	},
+	{
+		"name": "Citrus Garden",
+		"background": "linear-gradient(45deg, rgba(247,157,0,1) 0%, rgba(100,243,140,1) 100%)",
+		"dominant": "#adc846",
+		"color": "04-Golden"
+	},
+	{
+		"name": "Golden Hay",
+		"background": "linear-gradient(45deg, rgba(193,193,97,1) 0%, rgba(212,212,177,1) 100%)",
+		"dominant": "#caca89",
+		"color": "04-Golden"
+	},
+	{
+		"name": "Lemon Zest",
+		"background": "linear-gradient(45deg, rgba(80,204,127,1) 0%, rgba(245,209,0,1) 100%)",
+		"dominant": "#a2ce3f",
+		"color": "04-Golden"
+	},
+	{
+		"name": "Golden Sand",
+		"background": "linear-gradient(45deg, rgba(236,214,144,1) 0%, rgba(198,161,91,1) 100%)",
+		"dominant": "#d9bb75",
+		"color": "04-Golden"
+	},
+	{
+		"name": "Lime Fizz",
+		"background": "linear-gradient(45deg, rgba(202,197,49,1) 0%, rgba(243,249,167,1) 100%)",
+		"dominant": "#dedf6c",
+		"color": "04-Golden"
+	},
+	{
+		"name": "Pastel Sunset",
+		"background": "linear-gradient(45deg, rgba(198,255,221,1) 0%, rgba(251,215,134,1) 56%, rgba(247,121,125,1) 100%)",
+		"dominant": "#e8c5a0",
+		"color": "04-Golden"
+	},
+	{
+		"name": "Sandy Glow",
+		"background": "linear-gradient(45deg, rgba(230,185,128,1) 0%, rgba(234,205,163,1) 100%)",
+		"dominant": "#e8c391",
+		"color": "04-Golden"
+	},
+	{
+		"name": "Autumn Spice",
+		"background": "linear-gradient(45deg, rgba(209,145,60,1) 0%, rgba(255,209,148,1) 100%)",
+		"dominant": "#e8b168",
+		"color": "04-Golden"
+	},
+	{
+		"name": "Golden Sunrise",
+		"background": "linear-gradient(45deg, rgba(237,222,93,1) 0%, rgba(240,152,25,1) 100%)",
+		"dominant": "#eebb3b",
+		"color": "04-Golden"
+	},
+	{
+		"name": "Golden Sands",
+		"background": "linear-gradient(45deg, rgba(242,153,74,1) 0%, rgba(242,201,76,1) 100%)",
+		"dominant": "#f2b14b",
+		"color": "04-Golden"
+	},
+	{
+		"name": "Peach Sunrise",
+		"background": "linear-gradient(45deg, rgba(246,211,101,1) 0%, rgba(253,160,133,1) 100%)",
+		"dominant": "#f9b975",
+		"color": "04-Golden"
+	},
+	{
+		"name": "Honey Glow",
+		"background": "linear-gradient(45deg, rgba(252,234,187,1) 0%, rgba(248,181,0,1) 100%)",
+		"dominant": "#facf5d",
+		"color": "04-Golden"
+	},
+	{
+		"name": "Sunset Kiss",
+		"background": "linear-gradient(45deg, rgba(250,112,154,1) 0%, rgba(254,225,64,1) 100%)",
+		"dominant": "#fca86d",
+		"color": "04-Golden"
+	},
+	{
+		"name": "Lemonade Twist",
+		"background": "linear-gradient(45deg, rgba(255,107,107,1) 0%, rgba(253,252,71,1) 100%)",
+		"dominant": "#feb359",
+		"color": "04-Golden"
+	},
+	{
+		"name": "Sunshine Gold",
+		"background": "linear-gradient(45deg, rgba(255,179,71,1) 0%, rgba(255,204,51,1) 100%)",
+		"dominant": "#ffbf3d",
+		"color": "04-Golden"
+	},
+	{
+		"name": "Peach Bliss",
+		"background": "linear-gradient(45deg, rgba(255,226,89,1) 0%, rgba(255,167,81,1) 100%)",
+		"dominant": "#ffc455",
+		"color": "04-Golden"
+	},
+	{
+		"name": "Peachy Glow",
+		"background": "linear-gradient(45deg, rgba(255,175,189,1) 0%, rgba(255,195,160,1) 100%)",
+		"dominant": "#ffb9ae",
+		"color": "04-Golden"
+	},
+	{
+		"name": "Lemon Frost",
+		"background": "linear-gradient(45deg, rgba(255,252,0,1) 0%, rgba(255,255,255,1) 100%)",
+		"dominant": "#fffd7f",
+		"color": "04-Golden"
+	},
+	{
+		"name": "Rose Petal",
+		"background": "linear-gradient(45deg, rgba(211,149,155,1) 0%, rgba(191,230,186,1) 100%)",
+		"dominant": "#c9bdaa",
+		"color": "04-Golden"
+	},
+	{
+		"name": "Heaven's Gradient",
+		"background": "linear-gradient(45deg, rgba(166,192,254,1) 0%, rgba(246,128,132,1) 100%)",
+		"dominant": "#cea0c1",
+		"color": "04-Golden"
+	},
+	{
+		"name": "Warmth of Autumn",
+		"background": "linear-gradient(45deg, rgba(219,230,246,1) 0%, rgba(197,121,109,1) 100%)",
+		"dominant": "#d0afb1",
+		"color": "04-Golden"
+	},
+	{
+		"name": "Tranquil Meadow",
+		"background": "linear-gradient(45deg, rgba(218,210,153,1) 0%, rgba(176,218,185,1) 100%)",
+		"dominant": "#c5d6a9",
+		"color": "04-Golden"
+	},
+	{
+		"name": "Vintage Rose",
+		"background": "linear-gradient(45deg, rgba(186,83,112,1) 0%, rgba(244,226,216,1) 100%)",
+		"dominant": "#d79aa4",
+		"color": "04-Golden"
+	},
+	{
+		"name": "Candy Floss",
+		"background": "linear-gradient(45deg, rgba(232,25,139,1) 0%, rgba(199,234,253,1) 100%)",
+		"dominant": "#d781c4",
+		"color": "04-Golden"
+	},
+	{
+		"name": "Bubblegum Breeze",
+		"background": "linear-gradient(45deg, rgba(255,110,127,1) 0%, rgba(191,233,255,1) 100%)",
+		"dominant": "#dfabbf",
+		"color": "04-Golden"
+	},
+	{
+		"name": "Dreamy Sunset",
+		"background": "linear-gradient(45deg, rgba(252,203,144,1) 0%, rgba(213,126,235,1) 100%)",
+		"dominant": "#e8a4bd",
+		"color": "04-Golden"
+	},
+	{
+		"name": "Peachy Breeze",
+		"background": "linear-gradient(45deg, rgba(247,148,164,1) 0%, rgba(253,214,189,1) 100%)",
+		"dominant": "#fab5b0",
+		"color": "04-Golden"
+	},
+	{
+		"name": "Soft Peach",
+		"background": "linear-gradient(45deg, rgba(255,154,158,1) 0%, rgba(250,208,196,1) 100%)",
+		"dominant": "#fcb5b1",
+		"color": "04-Golden"
+	},
+	{
+		"name": "Peach Blossom",
+		"background": "linear-gradient(45deg, rgba(237,66,100,1) 0%, rgba(255,237,188,1) 100%)",
+		"dominant": "#f69790",
+		"color": "04-Golden"
+	},
+	{
+		"name": "Sunset Boulevard",
+		"background": "linear-gradient(45deg, rgba(239,59,54,1) 0%, rgba(255,255,255,1) 100%)",
+		"dominant": "#f79d9a",
+		"color": "04-Golden"
+	},
+	{
+		"name": "Coral Sunrise",
+		"background": "linear-gradient(45deg, rgba(255,199,150,1) 0%, rgba(255,107,149,1) 100%)",
+		"dominant": "#ff9995",
+		"color": "04-Golden"
+	},
+	{
+		"name": "Lavender Gold",
+		"background": "linear-gradient(45deg, rgba(84,74,125,1) 0%, rgba(255,212,82,1) 100%)",
+		"dominant": "#a98f67",
+		"color": "05-Coral"
+	},
+	{
+		"name": "Spiced Caramel",
+		"background": "linear-gradient(45deg, rgba(119,79,56,1) 0%, rgba(224,142,121,1) 100%)",
+		"dominant": "#ab6e58",
+		"color": "05-Coral"
+	},
+	{
+		"name": "Rustic Green",
+		"background": "linear-gradient(45deg, rgba(101,153,153,1) 0%, rgba(244,121,31,1) 100%)",
+		"dominant": "#ac895c",
+		"color": "05-Coral"
+	},
+	{
+		"name": "Sunset Candy",
+		"background": "linear-gradient(45deg, rgba(225,79,173,1) 0%, rgba(249,212,35,1) 100%)",
+		"dominant": "#ed9168",
+		"color": "05-Coral"
+	},
+	{
+		"name": "Amber Dawn",
+		"background": "linear-gradient(45deg, rgba(244,107,69,1) 0%, rgba(238,168,73,1) 100%)",
+		"dominant": "#f18947",
+		"color": "05-Coral"
+	},
+	{
+		"name": "Warm Horizon",
+		"background": "linear-gradient(45deg, rgba(255,88,88,1) 0%, rgba(240,152,25,1) 100%)",
+		"dominant": "#f77838",
+		"color": "05-Coral"
+	},
+	{
+		"name": "Golden Hour",
+		"background": "linear-gradient(45deg, rgba(253,200,48,1) 0%, rgba(243,115,53,1) 100%)",
+		"dominant": "#f89d32",
+		"color": "05-Coral"
+	},
+	{
+		"name": "Sunset Dunes",
+		"background": "linear-gradient(45deg, rgba(252,74,26,1) 0%, rgba(247,183,51,1) 100%)",
+		"dominant": "#f98026",
+		"color": "05-Coral"
+	},
+	{
+		"name": "Sahara Sunset",
+		"background": "linear-gradient(45deg, rgba(255,237,188,1) 0%, rgba(248,80,50,1) 100%)",
+		"dominant": "#fb9e77",
+		"color": "05-Coral"
+	},
+	{
+		"name": "Sunset Horizon",
+		"background": "linear-gradient(45deg, rgba(249,212,35,1) 0%, rgba(255,78,80,1) 100%)",
+		"dominant": "#fc9139",
+		"color": "05-Coral"
+	},
+	{
+		"name": "Golden Blush",
+		"background": "linear-gradient(45deg, rgba(249,211,35,1) 0%, rgba(255,78,80,1) 100%)",
+		"dominant": "#fc9039",
+		"color": "05-Coral"
+	},
+	{
+		"name": "Coral Heat",
+		"background": "linear-gradient(45deg, rgba(255,153,102,1) 0%, rgba(255,94,98,1) 100%)",
+		"dominant": "#ff7b64",
+		"color": "05-Coral"
+	},
+	{
+		"name": "Coral Bliss",
+		"background": "linear-gradient(45deg, rgba(255,95,109,1) 0%, rgba(255,195,113,1) 100%)",
+		"dominant": "#ff916f",
+		"color": "05-Coral"
+	},
+	{
+		"name": "Berry Mocha",
+		"background": "linear-gradient(45deg, rgba(213,51,105,1) 0%, rgba(203,173,109,1) 100%)",
+		"dominant": "#d0706b",
+		"color": "05-Coral"
+	},
+	{
+		"name": "Raspberry Mousse",
+		"background": "linear-gradient(45deg, rgba(214,109,117,1) 0%, rgba(226,149,135,1) 100%)",
+		"dominant": "#dc817e",
+		"color": "05-Coral"
+	},
+	{
+		"name": "Rose Velvet",
+		"background": "linear-gradient(45deg, rgba(221,94,137,1) 0%, rgba(247,187,151,1) 100%)",
+		"dominant": "#ea8c90",
+		"color": "05-Coral"
+	},
+	{
+		"name": "Peachy Flare",
+		"background": "linear-gradient(45deg, rgba(237,110,160,1) 0%, rgba(236,140,105,1) 100%)",
+		"dominant": "#ec7d84",
+		"color": "05-Coral"
+	},
+	{
+		"name": "Sunset Blush",
+		"background": "linear-gradient(45deg, rgba(222,98,98,1) 0%, rgba(255,184,140,1) 100%)",
+		"dominant": "#ee8d77",
+		"color": "05-Coral"
+	},
+	{
+		"name": "Pink Horizon",
+		"background": "linear-gradient(45deg, rgba(240,147,251,1) 0%, rgba(245,87,108,1) 100%)",
+		"dominant": "#f275b3",
+		"color": "05-Coral"
+	},
+	{
+		"name": "Coral Blush",
+		"background": "linear-gradient(45deg, rgba(242,112,156,1) 0%, rgba(255,148,114,1) 100%)",
+		"dominant": "#f88287",
+		"color": "05-Coral"
+	},
+	{
+		"name": "Blossom Pink",
+		"background": "linear-gradient(45deg, rgba(255,154,139,1) 0%, rgba(255,106,136,1) 100%)",
+		"dominant": "#ff8289",
+		"color": "05-Coral"
+	},
+	{
+		"name": "Rosy Melody",
+		"background": "linear-gradient(45deg, rgba(255,117,140,1) 0%, rgba(255,126,179,1) 100%)",
+		"dominant": "#ff799f",
+		"color": "05-Coral"
+	},
+	{
+		"name": "Verdant Fields",
+		"background": "linear-gradient(45deg, rgba(173,209,0,1) 0%, rgba(123,146,10,1) 100%)",
+		"dominant": "#94b105",
+		"color": "06-Orange"
+	},
+	{
+		"name": "Nature's Spectrum",
+		"background": "linear-gradient(45deg, rgba(30,150,0,1) 0%, rgba(255,242,0,1) 56%, rgba(255,0,0,1) 100%)",
+		"dominant": "#b48200",
+		"color": "06-Orange"
+	},
+	{
+		"name": "Lime Fusion",
+		"background": "linear-gradient(45deg, rgba(255,224,0,1) 0%, rgba(121,159,12,1) 100%)",
+		"dominant": "#bcbf06",
+		"color": "06-Orange"
+	},
+	{
+		"name": "Flaming Horizon",
+		"background": "linear-gradient(45deg, rgba(194,21,0,1) 0%, rgba(255,197,0,1) 100%)",
+		"dominant": "#e06d00",
+		"color": "06-Orange"
+	},
+	{
+		"name": "Sunny Glow",
+		"background": "linear-gradient(45deg, rgba(230,92,0,1) 0%, rgba(249,212,35,1) 100%)",
+		"dominant": "#ef9811",
+		"color": "06-Orange"
+	},
+	{
+		"name": "Autumn Glow",
+		"background": "linear-gradient(45deg, rgba(255,183,94,1) 0%, rgba(237,143,3,1) 100%)",
+		"dominant": "#f6a330",
+		"color": "06-Orange"
+	},
+	{
+		"name": "Sunset Fire",
+		"background": "linear-gradient(45deg, rgba(254,140,0,1) 0%, rgba(248,54,0,1) 100%)",
+		"dominant": "#fb6100",
+		"color": "06-Orange"
+	},
+	{
+		"name": "Golden Horizon",
+		"background": "linear-gradient(45deg, rgba(247,151,30,1) 0%, rgba(255,210,0,1) 100%)",
+		"dominant": "#fbb40f",
+		"color": "06-Orange"
+	},
+	{
+		"name": "Sunset Citrus",
+		"background": "linear-gradient(45deg, rgba(255,128,8,1) 0%, rgba(255,200,55,1) 100%)",
+		"dominant": "#ffa41f",
+		"color": "06-Orange"
+	},
+	{
+		"name": "Spiced Wine",
+		"background": "linear-gradient(45deg, rgba(211,131,18,1) 0%, rgba(168,50,121,1) 100%)",
+		"dominant": "#bd5a45",
+		"color": "07-Tomato"
+	},
+	{
+		"name": "Fiery Sunset",
+		"background": "linear-gradient(45deg, rgba(211,84,0,1) 0%, rgba(192,57,43,1) 100%)",
+		"dominant": "#c94615",
+		"color": "07-Tomato"
+	},
+	{
+		"name": "Sunny Spice",
+		"background": "linear-gradient(45deg, rgba(192,36,37,1) 0%, rgba(240,203,53,1) 100%)",
+		"dominant": "#d8772d",
+		"color": "07-Tomato"
+	},
+	{
+		"name": "Fiery Coral",
+		"background": "linear-gradient(45deg, rgba(228,77,38,1) 0%, rgba(241,101,41,1) 100%)",
+		"dominant": "#ea5927",
+		"color": "07-Tomato"
+	},
+	{
+		"name": "Sunset Blaze",
+		"background": "linear-gradient(45deg, rgba(248,80,50,1) 0%, rgba(231,56,39,1) 100%)",
+		"dominant": "#ef442c",
+		"color": "07-Tomato"
+	},
+	{
+		"name": "Sunfire Canvas",
+		"background": "linear-gradient(45deg, rgba(241,39,17,1) 0%, rgba(245,175,25,1) 100%)",
+		"dominant": "#f36b15",
+		"color": "07-Tomato"
+	},
+	{
+		"name": "Tangerine Flame",
+		"background": "linear-gradient(45deg, rgba(255,81,47,1) 0%, rgba(240,152,25,1) 100%)",
+		"dominant": "#f77424",
+		"color": "07-Tomato"
+	},
+	{
+		"name": "Coral Reef",
+		"background": "linear-gradient(45deg, rgba(255,75,31,1) 0%, rgba(255,144,104,1) 100%)",
+		"dominant": "#ff6d43",
+		"color": "07-Tomato"
+	},
+	{
+		"name": "Royal Velvet",
+		"background": "linear-gradient(45deg, rgba(123,67,151,1) 0%, rgba(220,36,48,1) 100%)",
+		"dominant": "#ab3363",
+		"color": "08-Watermelon"
+	},
+	{
+		"name": "Violet Charm",
+		"background": "linear-gradient(45deg, rgba(218,68,83,1) 0%, rgba(137,33,107,1) 100%)",
+		"dominant": "#b1325f",
+		"color": "08-Watermelon"
+	},
+	{
+		"name": "Lava Flow",
+		"background": "linear-gradient(45deg, rgba(237,33,58,1) 0%, rgba(147,41,30,1) 100%)",
+		"dominant": "#c0252c",
+		"color": "08-Watermelon"
+	},
+	{
+		"name": "Berry Blend",
+		"background": "linear-gradient(45deg, rgba(203,53,107,1) 0%, rgba(189,63,50,1) 100%)",
+		"dominant": "#c43a4e",
+		"color": "08-Watermelon"
+	},
+	{
+		"name": "Scarlet Wave",
+		"background": "linear-gradient(45deg, rgba(229,45,39,1) 0%, rgba(179,18,23,1) 100%)",
+		"dominant": "#cc1f1f",
+		"color": "08-Watermelon"
+	},
+	{
+		"name": "Sunset Passion",
+		"background": "linear-gradient(45deg, rgba(138,35,135,1) 0%, rgba(233,64,87,1) 56%, rgba(242,113,33,1) 100%)",
+		"dominant": "#cc4655",
+		"color": "08-Watermelon"
+	},
+	{
+		"name": "Pink Passion",
+		"background": "linear-gradient(45deg, rgba(164,69,178,1) 0%, rgba(212,24,114,1) 52%, rgba(255,0,102,1) 100%)",
+		"dominant": "#d21f83",
+		"color": "08-Watermelon"
+	},
+	{
+		"name": "Fiery Blaze",
+		"background": "linear-gradient(45deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 56%, rgba(252,176,69,1) 100%)",
+		"dominant": "#d4575c",
+		"color": "08-Watermelon"
+	},
+	{
+		"name": "Pink Flame",
+		"background": "linear-gradient(45deg, rgba(188,78,156,1) 0%, rgba(248,7,89,1) 100%)",
+		"dominant": "#da2a7a",
+		"color": "08-Watermelon"
+	},
+	{
+		"name": "Tropical Sunset",
+		"background": "linear-gradient(45deg, rgba(203,45,62,1) 0%, rgba(239,71,58,1) 100%)",
+		"dominant": "#dd3a3c",
+		"color": "08-Watermelon"
+	},
+	{
+		"name": "Cherry Rush",
+		"background": "linear-gradient(45deg, rgba(211,16,39,1) 0%, rgba(234,56,77,1) 100%)",
+		"dominant": "#de243a",
+		"color": "08-Watermelon"
+	},
+	{
+		"name": "Crimson Kiss",
+		"background": "linear-gradient(45deg, rgba(229,57,53,1) 0%, rgba(227,93,91,1) 100%)",
+		"dominant": "#e44b48",
+		"color": "08-Watermelon"
+	},
+	{
+		"name": "Fierce Red",
+		"background": "linear-gradient(45deg, rgba(240,0,0,1) 0%, rgba(220,40,30,1) 100%)",
+		"dominant": "#e6140f",
+		"color": "08-Watermelon"
+	},
+	{
+		"name": "Fiery Love",
+		"background": "linear-gradient(45deg, rgba(255,81,47,1) 0%, rgba(221,36,118,1) 100%)",
+		"dominant": "#ee3a52",
+		"color": "08-Watermelon"
+	},
+	{
+		"name": "Crimson Heat",
+		"background": "linear-gradient(45deg, rgba(235,51,73,1) 0%, rgba(244,92,67,1) 100%)",
+		"dominant": "#ef4746",
+		"color": "08-Watermelon"
+	},
+	{
+		"name": "Flamingo Dance",
+		"background": "linear-gradient(45deg, rgba(236,0,140,1) 0%, rgba(252,103,103,1) 100%)",
+		"dominant": "#f43379",
+		"color": "08-Watermelon"
+	},
+	{
+		"name": "Coral Flash",
+		"background": "linear-gradient(45deg, rgba(255,65,108,1) 0%, rgba(255,75,43,1) 100%)",
+		"dominant": "#ff464b",
+		"color": "08-Watermelon"
+	},
+	{
+		"name": "Plum Velvet",
+		"background": "linear-gradient(45deg, rgba(128,0,128,1) 0%, rgba(255,192,203,1) 100%)",
+		"dominant": "#bf60a5",
+		"color": "08-Watermelon"
+	},
+	{
+		"name": "Rosy Dawn",
+		"background": "linear-gradient(45deg, rgba(199,29,111,1) 0%, rgba(208,150,147,1) 100%)",
+		"dominant": "#cb5981",
+		"color": "08-Watermelon"
+	},
+	{
+		"name": "Rosy Dusk",
+		"background": "linear-gradient(45deg, rgba(178,69,146,1) 0%, rgba(241,95,121,1) 100%)",
+		"dominant": "#d15285",
+		"color": "08-Watermelon"
+	},
+	{
+		"name": "Pink Sunset",
+		"background": "linear-gradient(45deg, rgba(249,83,198,1) 0%, rgba(185,29,115,1) 100%)",
+		"dominant": "#d9389c",
+		"color": "08-Watermelon"
+	},
+	{
+		"name": "Romantic Flush",
+		"background": "linear-gradient(45deg, rgba(248,87,166,1) 0%, rgba(255,88,88,1) 100%)",
+		"dominant": "#fb577f",
+		"color": "08-Watermelon"
+	},
+	{
+		"name": "Blush Sunrise",
+		"background": "linear-gradient(45deg, rgba(255,8,68,1) 0%, rgba(255,177,153,1) 100%)",
+		"dominant": "#ff5c6e",
+		"color": "08-Watermelon"
+	},
+	{
+		"name": "Azure Horizon",
+		"background": "linear-gradient(45deg, rgba(34,225,255,1) 0%, rgba(29,143,225,1) 48%, rgba(98,94,177,1) 100%)",
+		"dominant": "#359adb",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Azure Glide",
+		"background": "linear-gradient(45deg, rgba(0,210,255,1) 0%, rgba(58,123,213,1) 100%)",
+		"dominant": "#1da6ea",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Ocean Dive",
+		"background": "linear-gradient(45deg, rgba(47,128,237,1) 0%, rgba(86,204,242,1) 100%)",
+		"dominant": "#42a6ef",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Skyline",
+		"background": "linear-gradient(45deg, rgba(68,129,235,1) 0%, rgba(4,190,254,1) 100%)",
+		"dominant": "#249ff4",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Crystal Blue",
+		"background": "linear-gradient(45deg, rgba(79,172,254,1) 0%, rgba(0,242,254,1) 100%)",
+		"dominant": "#27cffe",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Blue Fantasy",
+		"background": "linear-gradient(45deg, rgba(10,207,254,1) 0%, rgba(73,90,255,1) 100%)",
+		"dominant": "#2994fe",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Lavender Pink Bliss",
+		"background": "linear-gradient(45deg, rgba(167,112,239,1) 0%, rgba(207,139,243,1) 56%, rgba(253,185,155,1) 100%)",
+		"dominant": "#d191d4",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Fairy Tale",
+		"background": "linear-gradient(45deg, rgba(119,66,178,1) 0%, rgba(241,128,255,1) 52%, rgba(253,139,217,1) 100%)",
+		"dominant": "#cc6fd8",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Tropical Breeze",
+		"background": "linear-gradient(45deg, rgba(44,216,213,1) 0%, rgba(197,193,255,1) 56%, rgba(255,186,195,1) 100%)",
+		"dominant": "#a5c6dd",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Berry Splash",
+		"background": "linear-gradient(45deg, rgba(196,113,245,1) 0%, rgba(250,113,205,1) 100%)",
+		"dominant": "#df71e1",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Magical Twilight",
+		"background": "linear-gradient(45deg, rgba(105,234,203,1) 0%, rgba(234,204,248,1) 48%, rgba(102,84,241,1) 100%)",
+		"dominant": "#93aee6",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Lavender Dreams",
+		"background": "linear-gradient(45deg, rgba(82,113,196,1) 0%, rgba(177,159,255,1) 48%, rgba(236,161,254,1) 100%)",
+		"dominant": "#a590eb",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Mystic Flamingo",
+		"background": "linear-gradient(45deg, rgba(239,50,217,1) 0%, rgba(137,255,253,1) 100%)",
+		"dominant": "#bc98eb",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Twilight Serenity",
+		"background": "linear-gradient(45deg, rgba(116,116,191,1) 0%, rgba(52,138,199,1) 100%)",
+		"dominant": "#547fc3",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Royal Blue",
+		"background": "linear-gradient(45deg, rgba(69,104,220,1) 0%, rgba(176,106,179,1) 100%)",
+		"dominant": "#7a69c7",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Dreamy Blue",
+		"background": "linear-gradient(45deg, rgba(78,84,200,1) 0%, rgba(143,148,251,1) 100%)",
+		"dominant": "#6e74e1",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Electric Dream",
+		"background": "linear-gradient(45deg, rgba(0,219,222,1) 0%, rgba(252,0,255,1) 100%)",
+		"dominant": "#7e6dee",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Deep Ocean Breeze",
+		"background": "linear-gradient(45deg, rgba(33,147,176,1) 0%, rgba(109,213,237,1) 100%)",
+		"dominant": "#47b4ce",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Cool Breeze",
+		"background": "linear-gradient(45deg, rgba(0,210,255,1) 0%, rgba(146,141,171,1) 100%)",
+		"dominant": "#49afd5",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Serene Dusk",
+		"background": "linear-gradient(45deg, rgba(110,69,226,1) 0%, rgba(136,211,206,1) 100%)",
+		"dominant": "#7b8cd8",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Azure Sky",
+		"background": "linear-gradient(45deg, rgba(54,209,220,1) 0%, rgba(91,134,229,1) 100%)",
+		"dominant": "#48abe0",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Calm Twilight",
+		"background": "linear-gradient(45deg, rgba(127,127,213,1) 0%, rgba(134,168,231,1) 56%, rgba(145,234,228,1) 100%)",
+		"dominant": "#87b0e0",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Blue Mirage",
+		"background": "linear-gradient(45deg, rgba(72,198,239,1) 0%, rgba(111,134,214,1) 100%)",
+		"dominant": "#5ba6e2",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Crystal Waters",
+		"background": "linear-gradient(45deg, rgba(119,255,210,1) 0%, rgba(98,151,219,1) 48%, rgba(30,236,255,1) 100%)",
+		"dominant": "#52d6e4",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Aqua Splash",
+		"background": "linear-gradient(45deg, rgba(212,255,236,1) 0%, rgba(87,242,204,1) 48%, rgba(69,150,251,1) 100%)",
+		"dominant": "#7ad7e6",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Coastal Breeze",
+		"background": "linear-gradient(45deg, rgba(41,128,185,1) 0%, rgba(109,213,250,1) 56%, rgba(255,255,255,1) 100%)",
+		"dominant": "#87c6e6",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Oceanic Daydream",
+		"background": "linear-gradient(45deg, rgba(32,156,255,1) 0%, rgba(104,224,207,1) 100%)",
+		"dominant": "#44bee7",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Blue Serenity",
+		"background": "linear-gradient(45deg, rgba(97,144,232,1) 0%, rgba(167,191,232,1) 100%)",
+		"dominant": "#84a7e8",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Tropical Mirage",
+		"background": "linear-gradient(45deg, rgba(158,251,211,1) 0%, rgba(87,233,242,1) 48%, rgba(69,212,251,1) 100%)",
+		"dominant": "#68e8ea",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Oceanic Dive",
+		"background": "linear-gradient(45deg, rgba(31,162,255,1) 0%, rgba(18,216,250,1) 56%, rgba(166,255,203,1) 100%)",
+		"dominant": "#47d3ec",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Sky Blue Deep",
+		"background": "linear-gradient(45deg, rgba(156,236,251,1) 0%, rgba(101,199,247,1) 56%, rgba(0,82,212,1) 100%)",
+		"dominant": "#55acec",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Mystical Blue Lagoon",
+		"background": "linear-gradient(45deg, rgba(84,51,255,1) 0%, rgba(32,189,255,1) 56%, rgba(165,254,203,1) 100%)",
+		"dominant": "#5da4ed",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Icy Blue",
+		"background": "linear-gradient(45deg, rgba(178,254,250,1) 0%, rgba(14,210,247,1) 100%)",
+		"dominant": "#60e8f8",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Ocean Breeze",
+		"background": "linear-gradient(45deg, rgba(137,247,254,1) 0%, rgba(102,166,255,1) 100%)",
+		"dominant": "#77cefe",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Misty Sky",
+		"background": "linear-gradient(45deg, rgba(147,165,207,1) 0%, rgba(228,239,233,1) 100%)",
+		"dominant": "#bbcadc",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Lavender Echo",
+		"background": "linear-gradient(45deg, rgba(217,175,217,1) 0%, rgba(151,217,225,1) 100%)",
+		"dominant": "#b8c4dd",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Dreamy Violet",
+		"background": "linear-gradient(45deg, rgba(151,149,240,1) 0%, rgba(251,200,212,1) 100%)",
+		"dominant": "#c9aee2",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Serenity",
+		"background": "linear-gradient(45deg, rgba(172,182,229,1) 0%, rgba(134,253,232,1) 100%)",
+		"dominant": "#99d9e6",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Skyline Blue",
+		"background": "linear-gradient(45deg, rgba(131,164,212,1) 0%, rgba(182,251,255,1) 100%)",
+		"dominant": "#9ccfe9",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Winter Morning",
+		"background": "linear-gradient(45deg, rgba(125,226,252,1) 0%, rgba(185,182,229,1) 100%)",
+		"dominant": "#9bccf0",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Tranquil Seas",
+		"background": "linear-gradient(45deg, rgba(161,196,253,1) 0%, rgba(194,233,251,1) 100%)",
+		"dominant": "#b1d6fc",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Celestial Light",
+		"background": "linear-gradient(45deg, rgba(224,195,252,1) 0%, rgba(142,197,252,1) 100%)",
+		"dominant": "#b7c4fc",
+		"color": "09-Blue"
+	},
+	{
+		"name": "Deep Blue Sea",
+		"background": "linear-gradient(45deg, rgba(5,117,230,1) 0%, rgba(2,27,121,1) 100%)",
+		"dominant": "#0348af",
+		"color": "10-Sky"
+	},
+	{
+		"name": "Blueberry Frost",
+		"background": "linear-gradient(45deg, rgba(20,136,204,1) 0%, rgba(43,50,178,1) 100%)",
+		"dominant": "#1f5dbf",
+		"color": "10-Sky"
+	},
+	{
+		"name": "Deep Blue Shift",
+		"background": "linear-gradient(45deg, rgba(57,106,252,1) 0%, rgba(41,72,255,1) 100%)",
+		"dominant": "#3159fd",
+		"color": "10-Sky"
+	},
+	{
+		"name": "Azure Dream",
+		"background": "linear-gradient(45deg, rgba(0,82,212,1) 0%, rgba(67,100,247,1) 56%, rgba(111,177,252,1) 100%)",
+		"dominant": "#3b77ed",
+		"color": "10-Sky"
+	},
+	{
+		"name": "Deep Ocean",
+		"background": "linear-gradient(45deg, rgba(0,198,251,1) 0%, rgba(0,91,234,1) 100%)",
+		"dominant": "#0090f2",
+		"color": "10-Sky"
+	},
+	{
+		"name": "Sky Gradient",
+		"background": "linear-gradient(45deg, rgba(0,198,255,1) 0%, rgba(0,114,255,1) 100%)",
+		"dominant": "#009cff",
+		"color": "10-Sky"
+	},
+	{
+		"name": "Blue Lagoon",
+		"background": "linear-gradient(45deg, rgba(61,78,129,1) 0%, rgba(87,83,201,1) 48%, rgba(110,127,243,1) 100%)",
+		"dominant": "#5660bf",
+		"color": "10-Sky"
+	},
+	{
+		"name": "Violet Twilight",
+		"background": "linear-gradient(45deg, rgba(106,48,147,1) 0%, rgba(160,68,255,1) 100%)",
+		"dominant": "#853ac9",
+		"color": "10-Sky"
+	},
+	{
+		"name": "Royal Violet",
+		"background": "linear-gradient(45deg, rgba(95,114,189,1) 0%, rgba(155,35,234,1) 100%)",
+		"dominant": "#7d4ad3",
+		"color": "10-Sky"
+	},
+	{
+		"name": "Purple Fantasy",
+		"background": "linear-gradient(45deg, rgba(131,58,180,1) 0%, rgba(195,0,255,1) 100%)",
+		"dominant": "#a31dd9",
+		"color": "10-Sky"
+	},
+	{
+		"name": "Deep Indigo",
+		"background": "linear-gradient(45deg, rgba(142,45,226,1) 0%, rgba(74,0,224,1) 100%)",
+		"dominant": "#6c16e1",
+		"color": "10-Sky"
+	},
+	{
+		"name": "Mystic Twilight",
+		"background": "linear-gradient(45deg, rgba(106,17,203,1) 0%, rgba(37,117,252,1) 100%)",
+		"dominant": "#4743e3",
+		"color": "10-Sky"
+	},
+	{
+		"name": "Indigo Dream",
+		"background": "linear-gradient(45deg, rgba(71,118,230,1) 0%, rgba(142,84,233,1) 100%)",
+		"dominant": "#6a65e7",
+		"color": "10-Sky"
+	},
+	{
+		"name": "Deep Space",
+		"background": "linear-gradient(45deg, rgba(172,50,228,1) 0%, rgba(121,24,242,1) 48%, rgba(72,1,255,1) 100%)",
+		"dominant": "#7919f1",
+		"color": "10-Sky"
+	},
+	{
+		"name": "Purple Twilight",
+		"background": "linear-gradient(45deg, rgba(218,34,255,1) 0%, rgba(151,51,238,1) 100%)",
+		"dominant": "#b82af6",
+		"color": "10-Sky"
+	},
+	{
+		"name": "Magenta Magic",
+		"background": "linear-gradient(45deg, rgba(127,0,255,1) 0%, rgba(225,0,255,1) 100%)",
+		"dominant": "#b000ff",
+		"color": "10-Sky"
+	},
+	{
+		"name": "Urban Steel",
+		"background": "linear-gradient(45deg, rgba(134,143,150,1) 0%, rgba(89,97,100,1) 100%)",
+		"dominant": "#6f787d",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Ocean Twilight",
+		"background": "linear-gradient(45deg, rgba(53,92,125,1) 0%, rgba(108,91,123,1) 56%, rgba(192,108,132,1) 100%)",
+		"dominant": "#75617e",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Misty Veil",
+		"background": "linear-gradient(45deg, rgba(255,255,255,0.20) 0%, rgba(0,0,0,0.20) 100%)",
+		"dominant": "#7f7f7f",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Oceanic Depths",
+		"background": "linear-gradient(45deg, rgba(187,210,197,1) 0%, rgba(83,105,118,1) 56%, rgba(41,46,73,1) 100%)",
+		"dominant": "#677881",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Sunset Harmony",
+		"background": "linear-gradient(45deg, rgba(170,75,107,1) 0%, rgba(107,107,131,1) 56%, rgba(59,141,153,1) 100%)",
+		"dominant": "#706b82",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Skyline Heat",
+		"background": "linear-gradient(45deg, rgba(0,153,247,1) 0%, rgba(241,23,18,1) 100%)",
+		"dominant": "#785884",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Aqua Blush",
+		"background": "linear-gradient(45deg, rgba(252,53,76,1) 0%, rgba(10,191,188,1) 100%)",
+		"dominant": "#837a84",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Olive Haze",
+		"background": "linear-gradient(45deg, rgba(99,99,99,1) 0%, rgba(162,171,88,1) 100%)",
+		"dominant": "#82875d",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Mystical Evening",
+		"background": "linear-gradient(45deg, rgba(168,202,186,1) 0%, rgba(93,65,87,1) 100%)",
+		"dominant": "#828588",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Oceanic Sunrise",
+		"background": "linear-gradient(45deg, rgba(0,70,127,1) 0%, rgba(165,204,130,1) 100%)",
+		"dominant": "#528980",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Modern Steel",
+		"background": "linear-gradient(45deg, rgba(189,195,199,1) 0%, rgba(44,62,80,1) 100%)",
+		"dominant": "#74808b",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Grey Whisper",
+		"background": "linear-gradient(45deg, rgba(51,77,80,1) 0%, rgba(203,202,165,1) 100%)",
+		"dominant": "#7f8b7a",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Ocean Drive",
+		"background": "linear-gradient(45deg, rgba(16,141,199,1) 0%, rgba(239,142,56,1) 100%)",
+		"dominant": "#7f8d7f",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Golden Dusk",
+		"background": "linear-gradient(45deg, rgba(233,211,98,1) 0%, rgba(51,51,51,1) 100%)",
+		"dominant": "#8e834a",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Sage Stone",
+		"background": "linear-gradient(45deg, rgba(62,81,81,1) 0%, rgba(222,203,164,1) 100%)",
+		"dominant": "#8e8e7a",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Monochrome Ash",
+		"background": "linear-gradient(45deg, rgba(215,210,204,1) 0%, rgba(48,67,82,1) 100%)",
+		"dominant": "#838a8f",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Foggy Grey",
+		"background": "linear-gradient(45deg, rgba(230,218,218,1) 0%, rgba(39,64,70,1) 100%)",
+		"dominant": "#868d90",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Slate Reflection",
+		"background": "linear-gradient(45deg, rgba(97,97,97,1) 0%, rgba(155,197,195,1) 100%)",
+		"dominant": "#7e9392",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Twilight Mist",
+		"background": "linear-gradient(45deg, rgba(64,59,74,1) 0%, rgba(231,233,187,1) 100%)",
+		"dominant": "#939282",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Sky and Fire",
+		"background": "linear-gradient(45deg, rgba(33,150,243,1) 0%, rgba(244,67,54,1) 100%)",
+		"dominant": "#8a6c94",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Tropical Reflection",
+		"background": "linear-gradient(45deg, rgba(255,75,31,1) 0%, rgba(31,221,255,1) 100%)",
+		"dominant": "#8f948f",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Sandy Dusk",
+		"background": "linear-gradient(45deg, rgba(255,216,155,1) 0%, rgba(25,84,123,1) 100%)",
+		"dominant": "#8c968b",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Stormy Gray Blue",
+		"background": "linear-gradient(45deg, rgba(128,128,128,1) 0%, rgba(63,173,168,1) 100%)",
+		"dominant": "#5f9694",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Sunset to Night",
+		"background": "linear-gradient(45deg, rgba(243,144,79,1) 0%, rgba(59,67,113,1) 100%)",
+		"dominant": "#976960",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Moonlit Arctic",
+		"background": "linear-gradient(45deg, rgba(240,242,240,1) 0%, rgba(0,12,64,1) 100%)",
+		"dominant": "#787f98",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Mystic Violet",
+		"background": "linear-gradient(45deg, rgba(86,20,176,1) 0%, rgba(219,214,92,1) 100%)",
+		"dominant": "#987586",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Deep Sea Horizon",
+		"background": "linear-gradient(45deg, rgba(0,57,115,1) 0%, rgba(229,229,190,1) 100%)",
+		"dominant": "#728f98",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Emerald Whisper",
+		"background": "linear-gradient(45deg, rgba(31,64,55,1) 0%, rgba(153,242,200,1) 100%)",
+		"dominant": "#5c997f",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Aqua Smoke",
+		"background": "linear-gradient(45deg, rgba(78,205,196,1) 0%, rgba(85,98,112,1) 100%)",
+		"dominant": "#51979a",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Dusk Rose",
+		"background": "linear-gradient(45deg, rgba(240,194,123,1) 0%, rgba(75,18,72,1) 100%)",
+		"dominant": "#9d6a61",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Seaside Escape",
+		"background": "linear-gradient(45deg, rgba(77,160,176,1) 0%, rgba(211,157,56,1) 100%)",
+		"dominant": "#909e74",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Ocean Depths",
+		"background": "linear-gradient(45deg, rgba(19,84,122,1) 0%, rgba(128,208,199,1) 100%)",
+		"dominant": "#4992a0",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Earthy Tones",
+		"background": "linear-gradient(45deg, rgba(109,96,39,1) 0%, rgba(211,203,184,1) 100%)",
+		"dominant": "#a0956f",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Verdant Green",
+		"background": "linear-gradient(45deg, rgba(33,95,0,1) 0%, rgba(228,228,217,1) 100%)",
+		"dominant": "#82a16c",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Mystic River",
+		"background": "linear-gradient(45deg, rgba(58,181,176,1) 0%, rgba(61,153,190,1) 31%, rgba(86,49,122,1) 100%)",
+		"dominant": "#447fa2",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Seaside Breeze",
+		"background": "linear-gradient(45deg, rgba(8,80,120,1) 0%, rgba(133,216,206,1) 100%)",
+		"dominant": "#4694a3",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Twilight Blend",
+		"background": "linear-gradient(45deg, rgba(255,60,172,1) 0%, rgba(86,43,124,1) 52%, rgba(43,134,197,1) 100%)",
+		"dominant": "#804fa4",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Sunrise Glow",
+		"background": "linear-gradient(45deg, rgba(221,62,84,1) 0%, rgba(107,229,133,1) 100%)",
+		"dominant": "#a4916c",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Earthy Tone",
+		"background": "linear-gradient(45deg, rgba(183,152,145,1) 0%, rgba(148,113,107,1) 100%)",
+		"dominant": "#a5847e",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Sunset Glow",
+		"background": "linear-gradient(45deg, rgba(0,159,255,1) 0%, rgba(236,47,75,1) 100%)",
+		"dominant": "#7667a5",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Blueberry Crush",
+		"background": "linear-gradient(45deg, rgba(222,97,97,1) 0%, rgba(38,87,235,1) 100%)",
+		"dominant": "#825ca6",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Forest Canopy",
+		"background": "linear-gradient(45deg, rgba(60,165,92,1) 0%, rgba(181,172,73,1) 100%)",
+		"dominant": "#78a852",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Arctic Reflection",
+		"background": "linear-gradient(45deg, rgba(0,65,106,1) 0%, rgba(228,229,230,1) 100%)",
+		"dominant": "#7293a8",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Royal Sunset",
+		"background": "linear-gradient(45deg, rgba(2,80,197,1) 0%, rgba(212,63,141,1) 100%)",
+		"dominant": "#6b47a9",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Lilac Field",
+		"background": "linear-gradient(45deg, rgba(131,96,195,1) 0%, rgba(46,191,145,1) 100%)",
+		"dominant": "#588faa",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Stormy Sky",
+		"background": "linear-gradient(45deg, rgba(85,98,112,1) 0%, rgba(255,107,107,1) 100%)",
+		"dominant": "#aa666d",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Midnight Bloom",
+		"background": "linear-gradient(45deg, rgba(58,28,113,1) 0%, rgba(215,109,119,1) 56%, rgba(255,175,123,1) 100%)",
+		"dominant": "#b06876",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Sunset Dream",
+		"background": "linear-gradient(45deg, rgba(22,191,253,1) 0%, rgba(203,48,102,1) 100%)",
+		"dominant": "#7077b1",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Green Purple Spectrum",
+		"background": "linear-gradient(45deg, rgba(89,193,115,1) 0%, rgba(161,127,224,1) 56%, rgba(93,38,193,1) 100%)",
+		"dominant": "#7277b1",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Mystic Amethyst",
+		"background": "linear-gradient(45deg, rgba(157,80,187,1) 0%, rgba(110,72,170,1) 100%)",
+		"dominant": "#854cb2",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Cosmic Fusion",
+		"background": "linear-gradient(45deg, rgba(252,70,107,1) 0%, rgba(63,94,251,1) 100%)",
+		"dominant": "#9d52b3",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Earthen Sepia",
+		"background": "linear-gradient(45deg, rgba(30,19,12,1) 0%, rgba(154,132,120,1) 100%)",
+		"dominant": "#5c4b42",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Oceanic Dusk",
+		"background": "linear-gradient(45deg, rgba(58,97,134,1) 0%, rgba(137,37,62,1) 100%)",
+		"dominant": "#614362",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Purple Haze",
+		"background": "linear-gradient(45deg, rgba(66,39,90,1) 0%, rgba(115,75,109,1) 100%)",
+		"dominant": "#5a3963",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Gentle Lavender",
+		"background": "linear-gradient(45deg, rgba(148,142,153,1) 0%, rgba(46,20,55,1) 100%)",
+		"dominant": "#615168",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Teal Tranquility",
+		"background": "linear-gradient(45deg, rgba(68,160,141,1) 0%, rgba(9,54,55,1) 100%)",
+		"dominant": "#266b62",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Forest Ember",
+		"background": "linear-gradient(45deg, rgba(47,115,54,1) 0%, rgba(170,58,56,1) 100%)",
+		"dominant": "#6c5637",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Twilight Haze",
+		"background": "linear-gradient(45deg, rgba(40,48,72,1) 0%, rgba(133,147,152,1) 100%)",
+		"dominant": "#566170",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Twilight Mystery",
+		"background": "linear-gradient(45deg, rgba(195,55,100,1) 0%, rgba(29,38,113,1) 100%)",
+		"dominant": "#702e6a",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Crimson Tide",
+		"background": "linear-gradient(45deg, rgba(185,43,39,1) 0%, rgba(21,101,192,1) 100%)",
+		"dominant": "#674873",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Royal Fuchsia",
+		"background": "linear-gradient(45deg, rgba(173,83,137,1) 0%, rgba(60,16,83,1) 100%)",
+		"dominant": "#74316e",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Twilight Merge",
+		"background": "linear-gradient(45deg, rgba(43,88,118,1) 0%, rgba(78,67,118,1) 100%)",
+		"dominant": "#3c4d76",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Emerald Flow",
+		"background": "linear-gradient(45deg, rgba(21,153,87,1) 0%, rgba(21,87,153,1) 100%)",
+		"dominant": "#157878",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Evening Calm",
+		"background": "linear-gradient(45deg, rgba(96,108,136,1) 0%, rgba(63,76,107,1) 100%)",
+		"dominant": "#4f5c79",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Twilight Cascade",
+		"background": "linear-gradient(45deg, rgba(75,121,161,1) 0%, rgba(40,62,81,1) 100%)",
+		"dominant": "#395b79",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Mystic Rose",
+		"background": "linear-gradient(45deg, rgba(64,58,62,1) 0%, rgba(190,88,105,1) 100%)",
+		"dominant": "#7f4953",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Sunset Dreams",
+		"background": "linear-gradient(45deg, rgba(255,161,127,1) 0%, rgba(0,34,62,1) 100%)",
+		"dominant": "#7f615e",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Olive Grove",
+		"background": "linear-gradient(45deg, rgba(102,102,0,1) 0%, rgba(153,153,102,1) 100%)",
+		"dominant": "#7f7f33",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Peaceful Sea",
+		"background": "linear-gradient(45deg, rgba(44,62,80,1) 0%, rgba(76,161,175,1) 100%)",
+		"dominant": "#3c6f7f",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Evening Sapphire",
+		"background": "linear-gradient(45deg, rgba(75,108,183,1) 0%, rgba(24,40,72,1) 100%)",
+		"dominant": "#314a7f",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Sunset Harbor",
+		"background": "linear-gradient(45deg, rgba(11,72,107,1) 0%, rgba(245,98,23,1) 100%)",
+		"dominant": "#805541",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Forest Rain",
+		"background": "linear-gradient(45deg, rgba(19,78,94,1) 0%, rgba(113,178,128,1) 100%)",
+		"dominant": "#42806f",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Twilight Velvet",
+		"background": "linear-gradient(45deg, rgba(32,0,44,1) 0%, rgba(203,180,212,1) 100%)",
+		"dominant": "#755a80",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Mystical Seafoam",
+		"background": "linear-gradient(45deg, rgba(67,198,172,1) 0%, rgba(25,22,84,1) 100%)",
+		"dominant": "#2e6e80",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Minty Freshness",
+		"background": "linear-gradient(45deg, rgba(115,200,169,1) 0%, rgba(55,59,68,1) 100%)",
+		"dominant": "#558176",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Stormy Transition",
+		"background": "linear-gradient(45deg, rgba(82,82,82,1) 0%, rgba(61,114,180,1) 100%)",
+		"dominant": "#476283",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Magenta Dusk",
+		"background": "linear-gradient(45deg, rgba(192,72,72,1) 0%, rgba(72,0,72,1) 100%)",
+		"dominant": "#842448",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Marine Fade",
+		"background": "linear-gradient(45deg, rgba(41,128,185,1) 0%, rgba(44,62,80,1) 100%)",
+		"dominant": "#2a5f84",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Berry Crush",
+		"background": "linear-gradient(45deg, rgba(170,7,107,1) 0%, rgba(97,4,95,1) 100%)",
+		"dominant": "#850565",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Deep Blue Sky",
+		"background": "linear-gradient(45deg, rgba(30,60,114,1) 0%, rgba(42,82,152,1) 100%)",
+		"dominant": "#244785",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Magenta Lime Flow",
+		"background": "linear-gradient(45deg, rgba(168,0,119,1) 0%, rgba(102,255,0,1) 100%)",
+		"dominant": "#877f3b",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Earthen Clay",
+		"background": "linear-gradient(45deg, rgba(96,56,19,1) 0%, rgba(178,159,148,1) 100%)",
+		"dominant": "#896b53",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Rose Twilight",
+		"background": "linear-gradient(45deg, rgba(201,75,75,1) 0%, rgba(75,19,79,1) 100%)",
+		"dominant": "#8a2f4d",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Lavender Hues",
+		"background": "linear-gradient(45deg, rgba(97,67,133,1) 0%, rgba(81,99,149,1) 100%)",
+		"dominant": "#59538d",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Ocean Mint",
+		"background": "linear-gradient(45deg, rgba(52,232,158,1) 0%, rgba(15,52,67,1) 100%)",
+		"dominant": "#218e70",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Violet Seafoam",
+		"background": "linear-gradient(45deg, rgba(95,44,130,1) 0%, rgba(73,160,157,1) 100%)",
+		"dominant": "#54668f",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Burgundy Flow",
+		"background": "linear-gradient(45deg, rgba(167,55,55,1) 0%, rgba(122,40,40,1) 100%)",
+		"dominant": "#902f2f",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Midnight Wave",
+		"background": "linear-gradient(45deg, rgba(28,181,224,1) 0%, rgba(0,0,70,1) 100%)",
+		"dominant": "#0e5a93",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Cool Flame",
+		"background": "linear-gradient(45deg, rgba(44,62,80,1) 0%, rgba(253,116,108,1) 100%)",
+		"dominant": "#94595e",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Berry Mix",
+		"background": "linear-gradient(45deg, rgba(255,5,124,1) 0%, rgba(141,11,147,1) 50%, rgba(50,21,117,1) 100%)",
+		"dominant": "#940c81",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Green Horizon",
+		"background": "linear-gradient(45deg, rgba(0,65,106,1) 0%, rgba(121,159,12,1) 56%, rgba(255,224,0,1) 100%)",
+		"dominant": "#7d9527",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Violet Whisper",
+		"background": "linear-gradient(45deg, rgba(100,43,115,1) 0%, rgba(198,66,110,1) 100%)",
+		"dominant": "#953670",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Midnight Blue",
+		"background": "linear-gradient(45deg, rgba(0,92,151,1) 0%, rgba(54,55,149,1) 100%)",
+		"dominant": "#1b4996",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Ocean Dusk",
+		"background": "linear-gradient(45deg, rgba(92,37,141,1) 0%, rgba(67,137,162,1) 100%)",
+		"dominant": "#4f5797",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Royal Splendor",
+		"background": "linear-gradient(45deg, rgba(26,42,108,1) 0%, rgba(178,31,31,1) 56%, rgba(253,187,45,1) 100%)",
+		"dominant": "#98563d",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Twilight Pulse",
+		"background": "linear-gradient(45deg, rgba(244,59,71,1) 0%, rgba(69,58,148,1) 100%)",
+		"dominant": "#9c3a6d",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Twilight Shade",
+		"background": "linear-gradient(45deg, rgba(55,59,68,1) 0%, rgba(66,134,244,1) 100%)",
+		"dominant": "#3c609c",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Berry Fusion",
+		"background": "linear-gradient(45deg, rgba(204,43,94,1) 0%, rgba(117,58,136,1) 100%)",
+		"dominant": "#a03273",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Vibrant Dusk",
+		"background": "linear-gradient(45deg, rgba(135,77,162,1) 0%, rgba(196,58,48,1) 100%)",
+		"dominant": "#a54369",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Amethyst Sunset",
+		"background": "linear-gradient(45deg, rgba(192,57,43,1) 0%, rgba(142,68,173,1) 100%)",
+		"dominant": "#a73e6c",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Celestial Blue",
+		"background": "linear-gradient(45deg, rgba(26,41,128,1) 0%, rgba(38,208,206,1) 100%)",
+		"dominant": "#207ca7",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Purple Dream",
+		"background": "linear-gradient(45deg, rgba(103,58,183,1) 0%, rgba(81,45,168,1) 100%)",
+		"dominant": "#5c33af",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Magenta Eclipse",
+		"background": "linear-gradient(45deg, rgba(204,32,142,1) 0%, rgba(103,19,210,1) 100%)",
+		"dominant": "#9919b0",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Royal Indigo",
+		"background": "linear-gradient(45deg, rgba(255,0,204,1) 0%, rgba(51,51,153,1) 100%)",
+		"dominant": "#9919b2",
+		"color": "11-Grisaille"
+	},
+	{
+		"name": "Midnight Fade",
+		"background": "linear-gradient(45deg, rgba(67,67,67,1) 0%, rgba(0,0,0,1) 100%)",
+		"dominant": "#212121",
+		"color": "12-Prestige"
+	},
+	{
+		"name": "Slate Grey",
+		"background": "linear-gradient(45deg, rgba(35,37,38,1) 0%, rgba(65,67,69,1) 100%)",
+		"dominant": "#323435",
+		"color": "12-Prestige"
+	},
+	{
+		"name": "Royal Contrast",
+		"background": "linear-gradient(45deg, rgba(120,2,6,1) 0%, rgba(6,17,97,1) 100%)",
+		"dominant": "#3f0933",
+		"color": "12-Prestige"
+	},
+	{
+		"name": "Twilight Blue",
+		"background": "linear-gradient(45deg, rgba(20,30,48,1) 0%, rgba(36,59,85,1) 100%)",
+		"dominant": "#1c2c42",
+		"color": "12-Prestige"
+	},
+	{
+		"name": "Midnight Shade",
+		"background": "linear-gradient(45deg, rgba(15,12,41,1) 0%, rgba(48,43,99,1) 56%, rgba(36,36,62,1) 100%)",
+		"dominant": "#211e43",
+		"color": "12-Prestige"
+	},
+	{
+		"name": "Arctic Evening",
+		"background": "linear-gradient(45deg, rgba(15,32,39,1) 0%, rgba(32,58,67,1) 56%, rgba(44,83,100,1) 100%)",
+		"dominant": "#1e3944",
+		"color": "12-Prestige"
+	},
+	{
+		"name": "Violet Dusk",
+		"background": "linear-gradient(45deg, rgba(32,1,34,1) 0%, rgba(111,0,0,1) 100%)",
+		"dominant": "#470011",
+		"color": "12-Prestige"
+	},
+	{
+		"name": "Emerald Night",
+		"background": "linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(15,155,15,1) 100%)",
+		"dominant": "#074d07",
+		"color": "12-Prestige"
+	},
+	{
+		"name": "Graphite Blend",
+		"background": "linear-gradient(45deg, rgba(60,59,63,1) 0%, rgba(96,92,60,1) 100%)",
+		"dominant": "#4e4b3d",
+		"color": "12-Prestige"
+	},
+	{
+		"name": "Deep Twilight",
+		"background": "linear-gradient(45deg, rgba(65,41,90,1) 0%, rgba(47,7,67,1) 100%)",
+		"dominant": "#38184e",
+		"color": "12-Prestige"
+	},
+	{
+		"name": "Dusk Reflections",
+		"background": "linear-gradient(45deg, rgba(22,34,42,1) 0%, rgba(58,96,115,1) 100%)",
+		"dominant": "#28414e",
+		"color": "12-Prestige"
+	},
+	{
+		"name": "Urban Twilight",
+		"background": "linear-gradient(45deg, rgba(41,50,60,1) 0%, rgba(72,85,99,1) 100%)",
+		"dominant": "#38434f",
+		"color": "12-Prestige"
+	},
+	{
+		"name": "Dark Cherry",
+		"background": "linear-gradient(45deg, rgba(135,0,0,1) 0%, rgba(25,10,5,1) 100%)",
+		"dominant": "#500502",
+		"color": "12-Prestige"
+	},
+	{
+		"name": "Green Twilight",
+		"background": "linear-gradient(45deg, rgba(106,145,19,1) 0%, rgba(20,21,23,1) 100%)",
+		"dominant": "#3f5315",
+		"color": "12-Prestige"
+	},
+	{
+		"name": "Forest Mystery",
+		"background": "linear-gradient(45deg, rgba(9,48,40,1) 0%, rgba(35,122,87,1) 100%)",
+		"dominant": "#16553f",
+		"color": "12-Prestige"
+	},
+	{
+		"name": "Gothic Night",
+		"background": "linear-gradient(45deg, rgba(142,14,0,1) 0%, rgba(31,28,24,1) 100%)",
+		"dominant": "#56150c",
+		"color": "12-Prestige"
+	},
+	{
+		"name": "Earthy Blend",
+		"background": "linear-gradient(45deg, rgba(90,63,55,1) 0%, rgba(44,119,68,1) 100%)",
+		"dominant": "#435b3d",
+		"color": "12-Prestige"
+	},
+	{
+		"name": "Midnight Ocean",
+		"background": "linear-gradient(45deg, rgba(0,4,40,1) 0%, rgba(0,78,146,1) 100%)",
+		"dominant": "#00295d",
+		"color": "12-Prestige"
+	},
+	{
+		"name": "Stormy Shores",
+		"background": "linear-gradient(45deg, rgba(29,67,80,1) 0%, rgba(164,57,49,1) 100%)",
+		"dominant": "#603e40",
+		"color": "12-Prestige"
+	},
+	{
+		"name": "Olive Sunray",
+		"background": "linear-gradient(45deg, rgba(65,77,11,1) 0%, rgba(114,122,23,1) 100%)",
+		"dominant": "#596311",
+		"color": "12-Prestige"
+	},
+	{
+		"name": "Berry Ocean",
+		"background": "linear-gradient(45deg, rgba(54,0,51,1) 0%, rgba(11,135,147,1) 100%)",
+		"dominant": "#204363",
+		"color": "12-Prestige"
+	},
+	{
+		"name": "Golden Night",
+		"background": "linear-gradient(45deg, rgba(186,139,2,1) 0%, rgba(24,24,24,1) 100%)",
+		"dominant": "#69510d",
+		"color": "12-Prestige"
+	},
+	{
+		"name": "Mystery Red",
+		"background": "linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(231,76,60,1) 100%)",
+		"dominant": "#73261e",
+		"color": "12-Prestige"
+	},
+	{
+		"name": "Crimson Eclipse",
+		"background": "linear-gradient(45deg, rgba(195,20,50,1) 0%, rgba(36,11,54,1) 100%)",
+		"dominant": "#730f34",
+		"color": "12-Prestige"
+	},
+	{
+		"name": "Crimson Fade",
+		"background": "linear-gradient(45deg, rgba(235,87,87,1) 0%, rgba(0,0,0,1) 100%)",
+		"dominant": "#752b2b",
+		"color": "12-Prestige"
+	},
+	{
+		"name": "Indigo Night",
+		"background": "linear-gradient(45deg, rgba(35,7,77,1) 0%, rgba(204,83,51,1) 100%)",
+		"dominant": "#772d40",
+		"color": "12-Prestige"
+	},
+	{
+		"name": "Slate and Scarlet",
+		"background": "linear-gradient(45deg, rgba(51,51,51,1) 0%, rgba(221,24,24,1) 100%)",
+		"dominant": "#882525",
+		"color": "12-Prestige"
+	},
+	{
+		"name": "Hot Pink Night",
+		"background": "linear-gradient(45deg, rgba(255,0,132,1) 0%, rgba(51,0,27,1) 100%)",
+		"dominant": "#99004f",
+		"color": "12-Prestige"
+	}
+]

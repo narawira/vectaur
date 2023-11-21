@@ -1,0 +1,12 @@
+{
+  "name": "vectaur",
+  "id": "1302809395790552743",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "enableProposedApi": false,
+  "editorType": ["figma", "figjam"],
+  "networkAccess": {
+    "allowedDomains": ["*"],
+    "reasoning": "Internet access for local development."
+  }
+}
