@@ -1,9 +1,10 @@
 "use client"
 
 import Link from "next/link"
+import Image from "next/image"
 import { cn } from "@/lib/utils"
 import { usePathname } from "next/navigation";
-import { GalleryHorizontalEnd, LibraryBig, ListTodo, Palette, PencilRuler, PieChart, Sparkles } from "lucide-react";
+import { Figma, GalleryHorizontalEnd, LibraryBig, ListTodo, Palette, PieChart } from "lucide-react";
 
 export function MainNav({
 	className,
@@ -23,25 +24,34 @@ export function MainNav({
 
 	return (
 		<nav
-			className={cn("flex items-center space-x-1", className)}
+			className={cn("flex items-center sm:justify-between sm:w-full space-x-1", className)}
 			{...props}
 		>
-			<Link href="/" className={getLinkClass("/")}>
-				<GalleryHorizontalEnd className="w-4 h-4"></GalleryHorizontalEnd>
-				<span>Vectors</span>
+			<Link href="/" className="hidden sm:block">
+				<Image alt="Vectaur" src="/vectaur.svg" width={100} height={20} />
 			</Link>
-			<Link href="/gradient" className={getLinkClass("/gradient")}>
-				<Palette className="w-4 h-4"></Palette>
-				<span>Gradients</span>
-			</Link>
-			<Link href="/chart" className={getLinkClass("/chart")}>
-				<PieChart className="w-4 h-4"></PieChart>
-				<span>Charts</span>
-			</Link>
-			<Link href="/task" className={getLinkClass("/task")}>
-				<ListTodo className="w-4 h-4"></ListTodo>
-				<span>Tasks</span>
-			</Link>
+			<div className="flex items-center space-x-1">
+				<Link href="/" className={getLinkClass("/")}>
+					<GalleryHorizontalEnd className="w-4 h-4"></GalleryHorizontalEnd>
+					<span>Vectors</span>
+				</Link>
+				<Link href="/gradient" className={getLinkClass("/gradient")}>
+					<Palette className="w-4 h-4"></Palette>
+					<span>Gradients</span>
+				</Link>
+				<Link href="/chart" className={`${getLinkClass("/chart")} block sm:hidden`}>
+					<PieChart className="w-4 h-4"></PieChart>
+					<span>Charts</span>
+				</Link>
+				<Link href="/task" className={`${getLinkClass("/task")} block sm:hidden`}>
+					<ListTodo className="w-4 h-4"></ListTodo>
+					<span>Tasks</span>
+				</Link>
+				<Link href="https://www.figma.com/community/plugin/1302809395790552743/vectaur" target="_blank" className={`${getLinkClass("/task")} hidden sm:flex`}>
+					<Figma className="w-4 h-4"></Figma>
+					<span>Use on Figma</span>
+				</Link>
+			</div>
 		</nav>
 	)
 }

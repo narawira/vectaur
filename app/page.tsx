@@ -118,12 +118,21 @@ export default function Plugin() {
 		});
 
 		// Implement pagination
-		const perPage = 10; // Set the number of items per page
+		const perPage = 30; // Set the number of items per page
 		const offset = (page - 1) * perPage;
 		const paginatedData = filteredData.slice(offset, offset + perPage);
 
-		// @ts-ignore
-		setVector((prevVector) => [...prevVector, ...paginatedData]);
+		setVector((prevVector) => {
+			const newVector = [...prevVector];
+			paginatedData.forEach((data) => {
+				if (!newVector.find((item) => item.id === data.id)) {
+					// @ts-ignore
+					newVector.push(data);
+				}
+			});
+			return newVector;
+		});
+
 		setHasMorePages(filteredData.length > offset + perPage);
 		setIsLoading(false);
 	}, [page, search, theme, type]);
@@ -195,11 +204,16 @@ export default function Plugin() {
 					</div>
 
 					{Array.isArray(vector) && vector.length > 0 && (
-						<div ref={scrollContainerRef} className="h-[calc(100vh-182px)] overflow-x-hidden overflow-y-scroll inline-grid gap-[1px] grid-rows-[159px_159px] grid-cols-[159px_159px] bg-slate-200">
+						<div ref={scrollContainerRef} className="h-[calc(100vh-182px)] overflow-x-hidden overflow-y-scroll inline-grid gap-[1px] grid-rows-[159px_159px] grid-cols-[159px_159px] sm:flex sm:flex-wrap bg-slate-200">
 							{Array.isArray(vector) && vector.map((node, index) => (
-								<div onClick={() => insertingNode(node.svg, 'svg')} key={Math.random() + node.id} className="cursor-pointer hover:border-indigo-600">
-									<Image src={node.png} height={1024} width={1024} alt={node.caption} />
-								</div>
+								<>
+									<div onClick={() => insertingNode(node.svg, 'svg')} key={Math.random() + node.id} className="block sm:hidden cursor-pointer hover:border-indigo-600">
+										<Image src={node.png} height={1024} width={1024} alt={node.caption} />
+									</div>
+									<div className="hidden sm:block cursor-not-allowed w-[calc(100%/4-1px)]">
+										<Image src={node.png} height={1024} width={1024} alt={node.caption} />
+									</div>
+								</>
 							))}
 						</div>
 					)}
