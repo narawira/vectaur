@@ -1,9 +1,11 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
-import { MainNav } from "@/components/app/main-nav"
+import { Navigation } from "@/components/app/navigation"
 import { Toaster } from "@/components/ui/toaster"
 import { Analytics } from '@vercel/analytics/react';
-import { Button } from '@/components/ui/button';
+import { SplashScreen } from '@/components/app/splash-screen';
+import { Footer } from '@/components/app/footer';
+import { cn } from '@/lib/utils';
 // If loading a variable font, you don't need to specify the font weight
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,24 +22,17 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en" className={inter.className}>
-			<body className="bg-white text-foreground max-w-[480px] sm:max-w-7xl mx-auto lg:border-l lg:border-r min-h-screen">
-				<div className="border-b fixed top-0 left-1/2 -translate-x-1/2 bg-white max-w-[480px] sm:max-w-7xl border-l w-full border-r z-50">
-					<div className="flex h-16 items-center justify-between px-2 sm:px-4">
-						<MainNav />
-					</div>
-				</div>
+			<body className={cn("bg-white text-foreground w-full sm:max-w-7xl mx-auto min-h-screen")}>
+				<SplashScreen />
+				<Navigation />
 				<main className="pt-[65px]">
-				{children}</main>
+					{children}
+				</main>
 				<Toaster />
 				{process.env.NEXT_PUBLIC_ENV === 'production' && (
 					<Analytics />
 				)}
-				<div className="flex w-full items-center justify-between px-4 py-2 border-t gap-x-2 fixed bottom-0 left-0 bg-indigo-50 border-indigo-300 sm:max-w-7xl sm:left-1/2 sm:-translate-x-1/2 sm:border-x">
-					<div className="text-xs text-indigo-800">You can use this plugin for free, but if you want to support the development of this plugin, you can buy me a coffee.</div>
-					<a href="https://github.com/sponsors/narawira" target="_blank" className="inline-flex items-center justify-center rounded-md text-xs font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 text-white border border-indigo-500 bg-indigo-500 shadow-sm hover:bg-indigo-600 hover:text-white p-2 w-40">
-						Donate Here
-					</a>
-				</div>
+				<Footer />
 			</body>
 		</html>
 	)
