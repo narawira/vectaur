@@ -15,8 +15,8 @@ export function debounce(func: { apply: (arg0: any, arg1: IArguments) => void; }
 
 export function insideFigma() {
 	if (typeof window === 'undefined') {
-			// We are in server-side rendering or a non-browser environment like a worker.
-			return false;
+		// We are in server-side rendering or a non-browser environment like a worker.
+		return false;
 	}
 
 	// We are in a browser environment.

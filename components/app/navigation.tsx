@@ -55,10 +55,10 @@ export function Navigation({
 								<ListTodo className="w-4 h-4"></ListTodo>
 								<span>Tasks</span>
 							</Link>
-								<Link href="/sponsor" className={cn(getLinkClass("/sponsor"), "bg-rose-50 text-rose-500 hover:bg-rose-100 hover:text-rose-600")}>
-									<Heart className="w-4 h-4"></Heart>
-									<span>Sponsors</span>
-								</Link>
+							<Link href="/sponsor" className={cn(getLinkClass("/sponsor"), "bg-rose-50 text-rose-500 hover:bg-rose-100 hover:text-rose-600")}>
+								<Heart className="w-4 h-4"></Heart>
+								<span>Support Us</span>
+							</Link>
 						</>
 					)}
 					{!isInsideFigma && (
@@ -71,14 +71,17 @@ export function Navigation({
 									<GalleryHorizontalEnd className="w-4 h-4"></GalleryHorizontalEnd>
 									<span>Vectors</span>
 								</Link>
-								<Link href="/gradient" className={getLinkClass("/gradient")}>
+								{/* <Link href="/gradient" className={getLinkClass("/gradient")}>
 									<Palette className="w-4 h-4"></Palette>
 									<span>Gradients</span>
-								</Link>
+								</Link> */}
 								<Link href="/sponsor" className={cn(getLinkClass("/sponsor"), "bg-rose-50 text-rose-500 hover:bg-rose-100 hover:text-rose-600")}>
 									<Heart className="w-4 h-4"></Heart>
-									<span>Sponsors</span>
+									<span>Support Us</span>
 								</Link>
+								<div className="hidden sm:block w-1 h-8 pl-1.5 pr-2.5">
+									<div className="w-1 h-8 border-r"></div>
+								</div>
 								<Link href="https://www.figma.com/community/plugin/1302809395790552743/vectaur" target="_blank" className={cn(getLinkClass("/task"), "hidden sm:flex bg-slate-800 hover:bg-slate-900 text-slate-200 hover:text-slate-100")}>
 									<Figma className="w-4 h-4"></Figma>
 									<span>Use on Figma</span>

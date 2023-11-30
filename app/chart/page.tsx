@@ -265,7 +265,7 @@ export default function Chart() {
 	)
 
 	return (
-		<div className="space-y-3 px-4 py-2 h-[calc(100vh-115px)] overflow-y-scroll overflow-x-hidden">
+		<div className="space-y-3 px-4 py-2 h-[calc(100vh-65px)] overflow-y-scroll overflow-x-hidden">
 			<Alert>
 				<Info className="h-4 w-4" />
 				<AlertDescription className="pt-1 text-xs">

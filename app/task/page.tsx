@@ -97,7 +97,7 @@ export default function WorkingTask() {
 				</div>
 			</div>
 
-			<div className="h-[calc(100vh-203px)] overflow-x-hidden overflow-y-scroll divide-y">
+			<div className="h-[calc(100vh-153px)] overflow-x-hidden overflow-y-scroll divide-y">
 				{Array.isArray(groupedTodos) && groupedTodos.map((group: any) => (
 					<div key={`${group.document}-${group.page}`}>
 						<div className="text-sm font-normal text-center py-2 text-slate-500 border-b">{group.document} - {group.page}</div>
@@ -147,7 +147,7 @@ export default function WorkingTask() {
 				))}
 
 				{Array.isArray(groupedTodos) && groupedTodos.length === 0 && (
-					<div className="flex items-center justify-center h-[calc(100vh-251px)] max-w-sm mx-auto text-center">
+					<div className="flex items-center justify-center h-[calc(100vh-201px)] max-w-sm mx-auto text-center">
 						<div className="flex flex-col items-center justify-center">
 							<div className="text-xl font-medium text-indigo-600">
 								Write down your task here

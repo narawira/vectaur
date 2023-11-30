@@ -58,7 +58,7 @@ export default function WorkingTask() {
 				)}
 			</div>
 
-			<div className="col-span-4 overflow-x-hidden overflow-y-scroll h-[calc(100vh-153px)] border-r border-slate-200 p-2 space-y-2">
+			<div className="col-span-4 overflow-x-hidden overflow-y-scroll h-[calc(100vh-103px)] border-r border-slate-200 p-2 space-y-2">
 				<div style={{ backgroundColor: 'rgb(255, 255, 255)' }} className="p-2 text-xs w-full opacity-90 transition-all duration-300 hover:opacity-100 rounded-lg text-center cursor-pointer border text-slate-500" onClick={() => handleClick('01-Light')}>Light</div>
 				<div style={{ backgroundColor: 'rgb(123, 237, 159)' }} className="p-2 text-xs w-full opacity-90 transition-all duration-300 hover:opacity-100 rounded-lg text-center cursor-pointer border border-transparent text-white" onClick={() => handleClick('02-Lime')}>Lime</div>
 				<div style={{ backgroundColor: 'rgb(46, 213, 115)' }} className="p-2 text-xs w-full opacity-90 transition-all duration-300 hover:opacity-100 rounded-lg text-center cursor-pointer border border-transparent text-white" onClick={() => handleClick('03-Green')}>Green</div>
@@ -73,7 +73,7 @@ export default function WorkingTask() {
 				<div style={{ backgroundColor: 'rgb(47, 53, 66)' }} className="p-2 text-xs w-full opacity-90 transition-all duration-300 hover:opacity-100 rounded-lg text-center cursor-pointer border border-transparent text-white" onClick={() => handleClick('12-Prestige')}>Prestige</div>
 			</div>
 
-			<div className="col-span-8 h-[calc(100vh-153px)] overflow-x-hidden overflow-y-scroll">
+			<div className="col-span-8 h-[calc(100vh-103px)] overflow-x-hidden overflow-y-scroll">
 				<div className="inline-grid gap-[1px] grid-rows-[100px_100px] grid-cols-[159px_159px] bg-slate-200">
 					{gradients && gradients.map(({ name, background, color }, index) => {
 						const isFirstItemInGroup = color !== prevColor.current;

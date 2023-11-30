@@ -5,13 +5,23 @@ import { useEffect, useRef, useState } from "react";
 import Spinner from 'react-spinner-material';
 
 import { cn, debounce, insertFromUrl, insideFigma } from "@/lib/utils";
-import { Carrot, Crown, Gem, Search, X } from "lucide-react";
+import { Carrot, Crown, DownloadCloud, Gem, Layers, Search, X } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 
 import TagData from "@/data/tags.json";
 import VectorData from "@/data/vectors.json";
-import { StaticImport } from "next/dist/shared/lib/get-img-props";
+import { ScrollArea } from "@/components/ui/scroll-area";
+import {
+	Dialog,
+	DialogClose,
+	DialogContent,
+	DialogDescription,
+	DialogFooter,
+	DialogHeader,
+	DialogTitle,
+	DialogTrigger,
+} from "@/components/ui/dialog"
 
 type TagItem = {
 	name: string;
@@ -82,7 +92,7 @@ function ThemeFilter(
 	}
 ) {
 	return (
-		<div className={cn("col-span-4 overflow-x-hidden overflow-y-scroll border-r border-slate-200", (props.isInsideFigma ? "h-[calc(100vh-102px)]" : "sticky top-[64px] h-[calc(100vh-315px)]"))}>
+		<div className={cn("overflow-x-hidden overflow-y-scroll border-r border-slate-200", (props.isInsideFigma ? "h-[calc(100vh-102px)]" : "h-[calc(100vh-315px)]"))}>
 			<div className={`border-b text-xs px-2 py-1.5 cursor-pointer hover:bg-slate-100 text-slate-600 flex items-center justify-between ${props.theme === '' ? 'bg-slate-100' : ''}`} onClick={() => props.changeTheme('')}>
 				<div className="">All</div>
 			</div>
@@ -92,7 +102,8 @@ function ThemeFilter(
 						<div className="">{name}</div>
 						<div className="bg-indigo-200 text-indigo-700 py-0.5 px-1 rounded-sm">{count}</div>
 					</div>
-				))}
+				)
+			)}
 		</div>
 	);
 }
@@ -105,6 +116,7 @@ function TypeFilter(
 ) {
 	return (<div className="flex divide-x border-b">
 		<div onClick={() => props.changeType('')} className={`cursor-pointer hover:bg-slate-100 w-full px-3 py-1.5 text-xs flex gap-x-1 justify-center items-center ${props.type !== '' ? 'bg-white text-slate-700' : 'bg-slate-100 text-slate-600'}`}>
+			<Layers className="w-3 h-3"></Layers>
 			<div className="">All</div>
 		</div>
 		<div onClick={() => props.changeType('illustration')} className={`cursor-pointer hover:bg-slate-100 w-full px-3 py-1.5 text-xs flex gap-x-1 justify-center items-center ${props.type !== 'illustration' ? 'bg-white text-slate-700' : 'bg-slate-100 text-slate-600'}`}>
@@ -118,6 +130,68 @@ function TypeFilter(
 		<div onClick={() => props.changeType('misc')} className={`cursor-pointer hover:bg-slate-100 w-full px-3 py-1.5 text-xs flex gap-x-1 justify-center items-center ${props.type !== 'misc' ? 'bg-white text-slate-700' : 'bg-slate-100 text-slate-600'}`}>
 			<Gem className="w-3 h-3"></Gem>
 			<div className="">Misc</div>
+		</div>
+	</div>);
+}
+
+function WebFilter(
+	props: {
+		isInsideFigma: boolean,
+		theme: string;
+		changeTheme: (arg0: string) => void;
+		tag: {
+			name: any;
+			count: any;
+		}[];
+		changeType: (arg0: string) => void;
+		type: string;
+	}
+) {
+	return (<div className="sticky top-[64px]">
+		<div className="space-y-4 py-4">
+			<div className="px-3 py-2">
+				<h2 className="mb-2 px-4 text-lg font-semibold tracking-tight">
+					Discover
+				</h2>
+				<div className="space-y-1">
+					<Button onClick={() => props.changeType('')} variant={props.type !== '' ? 'ghost' : 'secondary'} className="w-full justify-start">
+						<Layers className="mr-1.5 h-4 w-4"></Layers>
+						<div className="">All</div>
+					</Button>
+					<Button onClick={() => props.changeType('illustration')} variant={props.type !== 'illustration' ? 'ghost' : 'secondary'} className="w-full justify-start">
+						<Crown className="mr-1.5 h-4 w-4"></Crown>
+						<div className="">Illustration</div>
+					</Button>
+					<Button onClick={() => props.changeType('icon')} variant={props.type !== 'icon' ? 'ghost' : 'secondary'} className="w-full justify-start">
+						<Carrot className="mr-1.5 h-4 w-4"></Carrot>
+						<div className="">Icon</div>
+					</Button>
+					<Button onClick={() => props.changeType('misc')} variant={props.type !== 'misc' ? 'ghost' : 'secondary'} className="w-full justify-start">
+						<Gem className="mr-1.5 h-4 w-4"></Gem>
+						<div className="">Misc</div>
+					</Button>
+				</div>
+			</div>
+			<div className="py-2">
+				<h2 className="relative px-7 text-lg font-semibold tracking-tight">
+					Themes
+				</h2>
+				<ScrollArea className="h-[calc(100vh-385px)] px-1">
+					<div className="space-y-1 p-2">
+						<Button variant={props.theme !== '' ? 'ghost' : 'secondary'} className="w-full justify-start font-normal" onClick={() => props.changeTheme('')}>
+							<div className="">All</div>
+						</Button>
+						{Array.isArray(props.tag) && props.tag.map(
+							({ name, count }, index) => (
+								<Button key={`${name}-${index}`} variant={props.theme !== name ? 'ghost' : 'secondary'} className="w-full justify-between font-normal" onClick={() => props.changeTheme(name)}>
+									<div className="">{name}</div>
+									<div className="bg-indigo-200 text-indigo-700 py-0.5 px-1 rounded-sm text-xs w-6">{count}</div>
+								</Button>
+							)
+						)}
+					</div>
+				</ScrollArea>
+			</div>
 		</div>
 	</div>);
 }
@@ -270,29 +344,61 @@ export default function Plugin() {
 
 			<div className="grid grid-cols-12">
 
-				<ThemeFilter
-					isInsideFigma={isInsideFigma}
-					theme={theme}
-					tag={tag}
-					changeTheme={changeTheme}
-				/>
+				<div className={cn('col-span-4')}>
+					{!isInsideFigma && (
+						<WebFilter
+							isInsideFigma={isInsideFigma}
+							theme={theme}
+							tag={tag}
+							changeTheme={changeTheme}
+							type={type}
+							changeType={changeType}
+						/>
+					)}
+					{isInsideFigma && (
+						<ThemeFilter
+							isInsideFigma={isInsideFigma}
+							theme={theme}
+							tag={tag}
+							changeTheme={changeTheme}
+						/>
+					)}
+				</div>
 
 				<div className="col-span-8">
-					<TypeFilter
-						type={type}
-						changeType={changeType}
-					/>
+					{isInsideFigma && (
+						<TypeFilter
+							type={type}
+							changeType={changeType}
+						/>
+					)}
 
 					{Array.isArray(vector) && vector.length > 0 && (
-						<div ref={scrollContainerRef} className={cn((isInsideFigma ? "h-[calc(100vh-132px)]" : ""), "overflow-x-hidden overflow-y-scroll inline-grid gap-[1px] grid-rows-[159px_159px] grid-cols-[159px_159px] sm:flex sm:flex-wrap bg-slate-200")}>
+						<div ref={scrollContainerRef} className={cn((isInsideFigma ? "h-[calc(100vh-132px)] bg-slate-200" : ""), "overflow-x-hidden overflow-y-scroll inline-grid gap-[1px] grid-rows-[159px_159px] grid-cols-[159px_159px] sm:flex sm:flex-wrap")}>
 							{Array.isArray(vector) && vector.map((node, index) => (
-								<div key={`${node.type}-${node.id}`} className={isInsideFigma ? '' : 'w-[calc(100%/4-1px)]'}>
-									<div onClick={() => insertingNode(node.svg, 'svg')} className="block sm:hidden cursor-pointer hover:border-indigo-600">
-										<Image src={node.png} height={1024} width={1024} alt={node.caption} />
-									</div>
-									<div className="hidden sm:block cursor-not-allowed">
-										<Image src={node.png} height={1024} width={1024} alt={node.caption} />
-									</div>
+								<div key={`${node.type}-${node.id}`} className={isInsideFigma ? '' : 'w-[50%-1px] sm:w-[calc(100%/3-1px)] lg:w-[calc(100%/4-1px)]'}>
+									{isInsideFigma && (
+										<div onClick={() => insertingNode(node.svg, 'svg')} className="cursor-pointer hover:border-indigo-600">
+											<Image src={node.png} height={1024} width={1024} alt={node.caption} />
+										</div>
+									)}
+									{!isInsideFigma && (
+										<div className="cursor-pointer hover:border-indigo-600 p-2 group flex items-center justify-center">
+											<div className="group-hover:shadow-lg rounded-xl overflow-hidden transition-all duration-300 relative">
+												<div className="opacity-0 group-hover:opacity-100 absolute top-0 left-0 bottom-0 right-0 flex items-center justify-center gap-x-2 z-10">
+													<Button>
+														<DownloadCloud className="w-4 h-4 mr-2 hidden md:block"></DownloadCloud>
+														<span>PNG</span>
+													</Button>
+													<Button>
+														<DownloadCloud className="w-4 h-4 mr-2 hidden md:block"></DownloadCloud>
+														<span>SVG</span>
+													</Button>
+												</div>
+												<Image src={node.png} height={1024} width={1024} alt={node.caption} className="scale-95 group-hover:scale-100 opacity-100 group-hover:opacity-20 transition-all duration-300 z-0" />
+											</div>
+										</div>
+									)}
 								</div>
 							))}
 						</div>
