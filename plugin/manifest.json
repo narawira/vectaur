@@ -10,7 +10,7 @@
 	],
 	"networkAccess": {
 		"allowedDomains": [
-			"https://www.vectaur.co/"
+			"https://vectaur.netlify.app/"
 		],
 		"reasoning": "We need to access our API to fetch data from our database.",
 		"devAllowedDomains": [

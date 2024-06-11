@@ -80,6 +80,6 @@
     "uuid": "^9.0.1"
   },
   "config": {
-    "siteURL": "https://www.vectaur.co"
+    "siteURL": "https://vectaur.netlify.app"
   }
 }

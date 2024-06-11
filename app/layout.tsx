@@ -10,7 +10,7 @@ import { cn } from '@/lib/utils';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-	metadataBase: new URL('https://www.vectaur.co'),
+	metadataBase: new URL('https://vectaur.netlify.app'),
 	title: 'Vectaur',
 	description: 'Elevating Your Figma Experience to New Heights',
 }
